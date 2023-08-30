@@ -49,11 +49,25 @@ http://185.89.156.111:8000/play/a02l
 http://185.89.156.111:8000/play/a02m
 
 
-#EXTINF:-1,SS-1 HD http://test.bestvideostreaming.is/10030/index.m3u8 #EXTINF:-1,SS-2 HD http://test.bestvideostreaming.is/8734/index.m3u8 #EXTINF:-1,SS-3 HD http://test.bestvideostreaming.is/8741/index.m3u8 #EXTINF:-1,SS-4 HD http://test.bestvideostreaming.is/8743/index.m3u8 #EXTINF:-1,SS-5 HD http://test.bestvideostreaming.is/8736/index.m3u8 
+#EXTINF:-1,SS-1 HD 
+http://test.bestvideostreaming.is/10030/index.m3u8
+
+#EXTINF:-1,SS-2 HD 
+http://test.bestvideostreaming.is/8734/index.m3u8
+
+#EXTINF:-1,SS-3 HD 
+http://test.bestvideostreaming.is/8741/index.m3u8 
+
+#EXTINF:-1,SS-4 HD 
+http://test.bestvideostreaming.is/8743/index.m3u8 
+
+#EXTINF:-1,SS-5 HD 
+http://test.bestvideostreaming.is/8736/index.m3u8 
 
 
 #EXTINF:-1,Bein Sports1
 https://www.livedoomovies.com:4431/02_epl1_720p/chunklist.m3u8
+
 #EXTINF:-1,Bein Sports2
 https://www.livedoomovies.com:4431/02_epl2_720p/chunklist.m3u8
 
@@ -74,21 +88,35 @@ http://typicamn.russtv.net/iptv/2WAMYB26HSVLNN/6822/index.m3u8
 http://typicamn.russtv.net/iptv/2WAMYB26HSVLNN/6823/index.m3u8
 
 
-#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",BEIN SPORTS XTRA http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/63930.m3u8 
-#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",Bein Sports XTRA \u00d1 http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/55660.m3u8
+#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",BEIN SPORTS XTRA 
+http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/63930.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",Bein Sports XTRA \u00d1 
+http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/55660.m3u8
 
 
-#EXTINF:-1,МАТЧ SPORT 1 HD http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1,МАТЧ SPORT 2 HD http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1,МАТЧ SPORT 3 HD http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
+#EXTINF:-1,МАТЧ SPORT 1 HD 
+http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8 
+
+#EXTINF:-1,МАТЧ SPORT 2 HD 
+http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8 
+
+#EXTINF:-1,МАТЧ SPORT 3 HD 
+http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
+
 #EXTINF:-1,ARENA SPORT 1
-https://kusnadipepenk.github.io/ntn/arns1.m3u8 #EXTINF:-1,ARENA SPORT 2 https://kusnadipepenk.github.io/ntn/arns2.m3u8 #EXTINF:-1,ARENA SPORT 3 https://kusnadipepenk.github.io/ntn/arns3.m3u8 #EXTINF:-1,ARENA SPORT 4 https://kusnadipepenk.github.io/ntn/arns4.m3u8
+https://kusnadipepenk.github.io/ntn/arns1.m3u8
+
+#EXTINF:-1,ARENA SPORT 2 
+https://kusnadipepenk.github.io/ntn/arns2.m3u8 
+
+#EXTINF:-1,ARENA SPORT 3 
+https://kusnadipepenk.github.io/ntn/arns3.m3u8 
+
+#EXTINF:-1,ARENA SPORT 4 
+https://kusnadipepenk.github.io/ntn/arns4.m3u8
 
 
-#EXTINF:-1,KSA Sports1
-https://www.elAhmad.com/tv/m3u8/online_live_14_tv.m3u8?id=saudi_sport1&t=c7c320397986487fe44abe5ee1a53827
-#EXTINF:-1,KSA Sports2
-https://www.elAhmad.com/tv/m3u8/online_live_14_tv.m3u8?id=saudi_sport2&t=c7c320397986487fe44abe5ee1a53827
 
 #EXTINF:-1,Persiana Sports
 https://af.ayas.ir/hls2/persiana.m3u8
@@ -149,119 +177,7 @@ http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/67628
 
 
 
-#EXTINF:-1,DD Sports HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/716490.ts 
-#EXTINF:-1,PTV Sports HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/716488.ts 
-#EXTINF:-1,Sky Sports HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/716494.ts 
-#EXTINF:-1,SSC Sports 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/716492.ts 
-#EXTINF:-1,Supersport Premier League HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/716491.ts 
-#EXTINF:-1,ABU Dhabi Sports 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/98898.ts 
-#EXTINF:-1,ABU Dhabi Sports 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/98899.ts 
-#EXTINF:-1,AL: Kujtesa Sport 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95475.ts 
-#EXTINF:-1,AU: FOX Sports NEWS HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95989.ts 
-#EXTINF:-1,BD: STAR Sports 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115861.ts 
-#EXTINF:-1,BEIN Sport 01 AR HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115745.ts 
-#EXTINF:-1,BEIN Sport 03 AR HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115747.ts 
-#EXTINF:-1,BEIN Sport 12 AR HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115756.ts 
-#EXTINF:-1,BEIN Sport FR 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115821.ts 
-#EXTINF:-1,BEIN Sports Haber FHD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115558.ts 
-#EXTINF:-1,CA: Sportsnet WEST HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95522.ts 
-#EXTINF:-1,DAZN 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115770.ts 
-#EXTINF:-1,DE: SKY Sport 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115636.ts 
-#EXTINF:-1,DE: SKY Sport 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/134211.ts 
-#EXTINF:-1,DE: SKY Sport 5 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115637.ts 
-#EXTINF:-1,DE: SKY Sport 6 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/134212.ts 
-#EXTINF:-1,DIGI Sport 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115685.ts 
-#EXTINF:-1,DIGI Sport 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115693.ts 
-#EXTINF:-1,DIGI Sport 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115694.ts 
-#EXTINF:-1,DIGI Sport 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/134222.ts 
-#EXTINF:-1,DUbai Racing HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/98874.ts 
-#EXTINF:-1,FR: BEIN Sport 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115746.ts 
-#EXTINF:-1,HOrizon Sports HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/98880.ts 
-#EXTINF:-1,HR: Arena Sport 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95491.ts 
-#EXTINF:-1,KSA Sport 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/98903.ts 
-#EXTINF:-1,LSP: ABU Dhabi Sports 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95555.ts 
-#EXTINF:-1,LSP: ABU Dhabi Sports 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95556.ts 
-#EXTINF:-1,LSP: Eleven Sports 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95561.ts 
-#EXTINF:-1,LSP: Eleven Sports 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95562.ts 
-#EXTINF:-1,LSP: RMC Sport 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95547.ts 
-#EXTINF:-1,LSP: VIP Arena Sport 1 SRB FHD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95481.ts 
-#EXTINF:-1,LSP: VIP Arena Sport 3 SRB FHD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95483.ts 
-#EXTINF:-1,LSP: VIP Arena Sport 4 HD HR 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95494.ts 
-#EXTINF:-1,LSP: VIP NOVA Sport HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95506.ts 
-#EXTINF:-1,LSP: VIP Planet Sport 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95507.ts 
-#EXTINF:-1,LSP: VIP Planet Sport 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95508.ts 
-#EXTINF:-1,LSP: VIP RMC Sport 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95548.ts 
-#EXTINF:-1,LSP: VIP RMC Sport 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95549.ts 
-#EXTINF:-1,LSP: VIP RMC Sport 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95550.ts 
-#EXTINF:-1,LSP: VIP Sport KLUB 2 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95499.ts 
-#EXTINF:-1,LSP: VIP Sport KLUB 3 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95500.ts 
-#EXTINF:-1,LSP: VIP Sport KLUB 4 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95501.ts 
-#EXTINF:-1,LSP: VIP Sportsnet EAST HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95523.ts 
-#EXTINF:-1,SKY Sports Arena HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115902.ts 
-#EXTINF:-1,SKY Sports Cricket HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115648.ts 
-#EXTINF:-1,SKY Sports F1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115642.ts 
-#EXTINF:-1,SKY Sports GOLF HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115799.ts 
-#EXTINF:-1,SKY Sports MAIN Event HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115800.ts 
-#EXTINF:-1,SONY TEN 1 HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/115857.ts 
-#EXTINF:-1,SP: CBS Sports HD 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/606814.ts 
-#EXTINF:-1,SP: ESPN + HD MX 
-http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95978.ts 
-#EXTINF:-1,SP: ESPN Deportes FHD 
+D 
 http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/95969.ts 
 #EXTINF:-1,SP: FOX Sports 1 HD NL 
 http://live.geoiptv.org:8880/live/tvgp/r050qPk8XT/134269.ts 
