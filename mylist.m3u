@@ -27,7 +27,12 @@ https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index
 #EXTINF:-1 tvg-id="" tvg-name="Dubai Sports 3" tvg-logo="" group-title="SPOR",Dubai Sports 3
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
 
-
+#EXTINF:-1,Cartoonito
+http://149.7.102.223:8080/Boomerang/playlist.m3u8 
+#EXTINF:-1,Turkmenistan Sport
+http://149.7.102.223:8080/BEINBOXOFFICE1/mono.m3u8
+#EXTINF:-1,Turkmenistan Sport
+http://149.7.102.223:8080/BEINBOXOFFICE2/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Tring Sport 1 HD" tvg-logo="" group-title="SPOR",Tring Sport 1 HD
 http://185.89.156.111:8000/play/a017
