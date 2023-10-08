@@ -29,61 +29,10 @@ https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/ind
 
 #EXTINF:-1,Cartoonito
 http://149.7.102.223:8080/Boomerang/playlist.m3u8 
-#EXTINF:-1,Turkmenistan Sport
+#EXTINF:-1,Bein Box Office 1
 http://149.7.102.223:8080/BEINBOXOFFICE1/mono.m3u8
-#EXTINF:-1,Turkmenistan Sport
+#EXTINF:-1,Bein Box Office 2
 http://149.7.102.223:8080/BEINBOXOFFICE2/mono.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Tring Sport 1 HD" tvg-logo="" group-title="SPOR",Tring Sport 1 HD
-http://185.89.156.111:8000/play/a017
-#EXTINF:-1 tvg-id="" tvg-name="Tring Sport 2 HD" tvg-logo="" group-title="SPOR",Tring Sport 2 HD
-http://185.89.156.111:8000/play/a018
-#EXTINF:-1 tvg-id="" tvg-name="Tring Sport 3 HD" tvg-logo="" group-title="SPOR",Tring Sport 3 HD
-http://185.89.156.111:8000/play/a019
-#EXTINF:-1 tvg-id="" tvg-name="Tring Sport 4 HD" tvg-logo="" group-title="SPOR",Tring Sport 4 HD
-http://185.89.156.111:8000/play/a01a
-
-
-#EXTINF:-1,Tring Sport 1 
-http://185.85.152.220:9901/TringSport1HD/index.m3
-
-#EXTINF:-1,Tring Sport 2
-http://185.85.152.220:9901/TringSport2HD/index.m3u8
-
-#EXTINF:-1,Tring Sport 3 
-http://185.85.152.220:9901/TringSport3HD/index.m3u8
-
-#EXTINF:-1,Tring Sport 4 
-http://185.85.152.220:9901/TringSport4HD/index.m3u8
-
-#EXTINF:-1,Tring Sport 5 
-http://185.85.152.220:9901/TringSport5HD/index.m3u8 
-
-#EXTINF:-1 tvg-id="" tvg-name="OVERSPORT 1" tvg-logo="" group-title="SPOR",OVER SPORTS 1
-http://185.89.156.111:8000/play/a02j
-#EXTINF:-1 tvg-id="" tvg-name="OVERSPORT 2" tvg-logo="" group-title="SPOR",OVER SPORTS 2
-http://185.89.156.111:8000/play/a02k
-#EXTINF:-1 tvg-id="" tvg-name="OVERSPORT 3" tvg-logo="" group-title="SPOR",OVER SPORTS 3
-http://185.89.156.111:8000/play/a02l
-#EXTINF:-1 tvg-id="" tvg-name="OVERSPORT 4" tvg-logo="" group-title="SPOR",OVER SPORTS 4
-http://185.89.156.111:8000/play/a02m
-
-
-#EXTINF:-1,SS-1 HD 
-http://test.bestvideostreaming.is/10030/index.m3u8
-
-#EXTINF:-1,SS-2 HD 
-http://test.bestvideostreaming.is/8734/index.m3u8
-
-#EXTINF:-1,SS-3 HD 
-http://test.bestvideostreaming.is/8741/index.m3u8 
-
-#EXTINF:-1,SS-4 HD 
-http://test.bestvideostreaming.is/8743/index.m3u8 
-
-#EXTINF:-1,SS-5 HD 
-http://test.bestvideostreaming.is/8736/index.m3u8 
-
 
 #EXTINF:-1 tvg-logo="http://magott.net:80/images/d4c9a82eabcea9ef8c626da20887aa40.png" group-title="OLAHRAGA", BEIN SPORT 1 TR
 http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41811_&extension=ts
