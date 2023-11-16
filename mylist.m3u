@@ -13,16 +13,17 @@ http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1,МАТЧ SPORT 3 HD 
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
 
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 1HD" tvg-logo="" group-title="SPOR",SHARJAH
+#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 1HD" tvg-logo="" group-title="SPOR",MAX SPORT 1HD
 http://93.155.227.38:555/m3u8/webmtelsport_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 2HD" tvg-logo="" group-title="SPOR",SHARJAH
+#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 2HD" tvg-logo="" group-title="SPOR",MAX SPORT 2HD
 http://93.155.227.38:555/m3u8/webmtelsport2_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 3HD" tvg-logo="" group-title="SPOR",SHARJAH
+#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 3HD" tvg-logo="" group-title="SPOR",MAX SPORT 3HD
 http://93.155.227.38:555/m3u8/webmtelsport3_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 4HD" tvg-logo="" group-title="SPOR",SHARJAH
+#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 4HD" tvg-logo="" group-title="SPOR",MAX SPORT 4HD
 http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
 
-#EXTINF:-1, Qirguistan sport http://89.254.128.5:22280/qsport/index.m3u8
+#EXTINF:-1,Kirgizistan Sport
+http://89.254.128.5:22280/qsport/index.m3u
 
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
@@ -33,7 +34,8 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
 https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 
-EXTINF:-1, VIAPLAY SPORT 1  https://d3j7ofexbkp7q4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bl5ti7t9yiazp-ssai-prd/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Viaplay Sport1" tvg-logo="" group-title="SPOR",Viaplay Sport 1
+https://d3j7ofexbkp7q4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bl5ti7t9yiazp-ssai-prd/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="SHARJAH SPORT" tvg-logo="" group-title="SPOR",SHARJAH
 http://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
