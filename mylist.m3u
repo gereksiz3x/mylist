@@ -12,8 +12,6 @@ http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
 http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8 
 #EXTINF:-1,МАТЧ SPORT 3 HD 
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1, МАТЧ Премьер HD http://bl.uma.media/live/126866/HLS/6866944_4/2/1/playlist.m3u8 
-
 
 #EXTINF:-1, MAX SPORT 1HD  http://93.155.227.38:555/m3u8/webmtelsport_web.m3u8 
 #EXTINF:-1, MAX SPORT 2HD http://93.155.227.38:555/m3u8/webmtelsport2_web.m3u8 
