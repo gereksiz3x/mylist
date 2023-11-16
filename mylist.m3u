@@ -105,8 +105,6 @@ https://kusnadipepenk.github.io/ntn/arns4.m3u8
 
 #EXTINF:-1,Persiana Sports
 https://af.ayas.ir/hls2/persiana.m3u8
-#EXTINF:-1,RTA Sports
-https://hls.rtasport.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-id="Bein Sports 5" tvg-logo="" group-title="Sports",Bein Sports 5
 http://175.107.244.52:4457/play/a06y/index.m3u8
@@ -116,43 +114,6 @@ http://175.107.244.52:4457/play/a070/index.m3u8
 
 
 
-
-#EXTINF:-1,beIN SPORTS
-http://154.58.202.131:8000/play/a07s
-#EXTINF:-1,beIN SPORTS 2
-http://154.58.202.131:8000/play/a07o
-#EXTINF:-1,beIN SPORTS 3 PREMIUM
-http://154.58.202.131:8000/play/a07q
-#EXTINF:-1,beIN SPORTS 4
-http://154.58.202.131:8000/play/a07n
-#EXTINF:-1,beIN SPORTS 5
-http://154.58.202.131:8000/play/a07r
-#EXTINF:-1,beIN SPORTS 6
-http://154.58.202.131:8000/play/a07p
-#EXTINF:-1,beIN SPORTS MAX 1
-http://154.58.202.131:8000/play/a035
-#EXTINF:-1,beIN SPORTS MAX 6
-http://154.58.202.131:8000/play/a03a
-
-
-
-#EXTINF:-1,TR: beIN Sports 1 HD 
-http://metaip.tv:80/teeti606/h5nqpv/8644 
-#EXTINF:-1,TR: beIN Sports 1 FHD 
-http://metaip.tv:80/teeti606/h5nqpv/8645
-#EXTINF:-1,TR: bieN SP0RT 1 FHD 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/5000 
-#EXTINF:-1,TR: bieN SP0RT 1 [YEDEK] 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/117044 
-#EXTINF:-1,TR: bieN SP0RT 1 HD+ 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/19048 
-#EXTINF:-1,TR: bieN SP0RT 1 HD 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/288 
-#EXTINF:-1,TR: bieN SP0RT 1 SD+ 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/222303 
-#EXTINF:-1,TR: bieN SP0RT 1 SD 
-http://turktvbizde.xyz:8080/soneraydul/xh6UUS4cKuLP/286
-
 #EXTINF:-1,TR: beIN SPORTS 1 HD 
 http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/26906 
 #EXTINF:-1,TR: beIN SPORTS 1 
@@ -161,5 +122,10 @@ http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/11478
 http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/16240 
 #EXTINF:-1,TR: beIN SPORTS 1 FEED YAYIN 
 http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/67628
+
+#EXTINF:-1,NICKTOONS
+http://89.254.128.5:22280/nicktoons/video.m3u8
+#EXTINF:-1,NICKELODEON
+http://143.244.60.30/NICKELODEON/index.m3u8
 
 
