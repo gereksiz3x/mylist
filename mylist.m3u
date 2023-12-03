@@ -12,6 +12,8 @@ http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
 http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8 
 #EXTINF:-1,МАТЧ SPORT 3 HD 
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
+#EXTINF:-1,МАТЧ ПРЕМЬЕР HD
+https://bl.uma.media/live/126866/HLS/6866944_4/2/1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 1HD" tvg-logo="" group-title="SPOR",MAX SPORT 1HD
 http://93.155.227.38:555/m3u8/webmtelsport_web.m3u8
@@ -143,4 +145,34 @@ http://89.254.128.5:22280/nicktoons/video.m3u8
 #EXTINF:-1,NICKELODEON
 http://143.244.60.30/NICKELODEON/index.m3u8
 
+
+#EXTINF:-1, SPORT TV1
+http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2525/index.m3u8
+#EXTINF:-1, SPORT TV2
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2526/index.m3u8
+#EXTINF:-1, SPORT TV3
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2527/index.m3u8
+#EXTINF:-1, SPORT TV4
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2528/index.m3u8
+#EXTINF:-1, SPORT TV5
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2529/index.m3u8
+
+#EXTINF:-1,Sportv 4k
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/80
+
+#EXTINF:-1,Sportv 1 HD
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/14
+
+#EXTINF:-1,Sportv 2 HD
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/9
+
+
+#EXTINF:-1,Sportv 3 HD
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/28
+
+#EXTINF:-1,Band sports 4kk
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/23
+
+#EXTINF:-1,Band sp 4kk
+http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/18
 
