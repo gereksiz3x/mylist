@@ -145,6 +145,8 @@ http://89.254.128.5:22280/nicktoons/video.m3u8
 #EXTINF:-1,NICKELODEON
 http://143.244.60.30/NICKELODEON/index.m3u8
 
+#EXTINF:-1, CBC Sport
+http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2193/index.m3u8
 
 #EXTINF:-1, SPORT TV1
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2525/index.m3u8
