@@ -94,12 +94,6 @@ http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13599_&extens
 http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=15181_&extension=ts
 
 
-#EXTINF:-1,Bein Sports1
-https://www.livedoomovies.com:4431/02_epl1_720p/chunklist.m3u8
-
-#EXTINF:-1,Bein Sports2
-https://www.livedoomovies.com:4431/02_epl2_720p/chunklist.m3u8
-
 
 #EXTINF:-1,Bein Sports1yedek
 http://typicamn.russtv.net/iptv/2WAMYB26HSVLNN/6817/index.m3u8
@@ -131,14 +125,6 @@ http://175.107.244.52:4457/play/a070/index.m3u8
 
 
 
-#EXTINF:-1,TR: beIN SPORTS 1 HD 
-http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/26906 
-#EXTINF:-1,TR: beIN SPORTS 1 
-http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/11478 
-#EXTINF:-1,TR: beIN SPORTS 1 SD 
-http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/16240 
-#EXTINF:-1,TR: beIN SPORTS 1 FEED YAYIN 
-http://kululuplay.ch:8080/fevziyesonmez881808/RdUJgbWPauLHvFAVeEQs/67628
 
 #EXTINF:-1,NICKTOONS
 http://89.254.128.5:22280/nicktoons/video.m3u8
@@ -172,6 +158,9 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2391/index.m3u8
 #EXTINF:-1, 5Live Israel
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2362/index.m3u8
 
+#EXTINF:113,beIN SPORTS 1 FR FHD
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/2499/index.m3u8
+
 #EXTINF:-1, Bein Sport 2 FR
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2500/index.m3u8
 
@@ -192,6 +181,9 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2559/index.m3u8
 
 #EXTINF:-1,+ Sport
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2502/index.m3u8
+
+#EXTINF:0,S110. DIGI Sport 1 HD RO
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/2523/index.m3u8
 
 #EXTINF:-1, Digi Sport 2
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2522/index.m3u8
@@ -249,6 +241,69 @@ http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2528/index.m3u8
 #EXTINF:-1, SPORT TV5
 http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2529/index.m3u8
 
+
+#EXTINF:0,S92. Arena Sport 1 FHD HR
+http://77.72.23.28/iptv/MB6KGZH26APQGN/7263/index.m3u8 
+#EXTINF:0,S93. Arena Sport 1 HD HR
+http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7329/index.m3u8 
+#EXTINF:0,S94. Arena Sport 1 SK
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2550/index.m3u8 
+#EXTINF:0,S95. Arena Sport 2 FHD HR
+http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7264/index.m3u8
+
+#EXTINF:0,S96. Arena Sport 2 HD HR
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/7330/index.m3u8 
+#EXTINF:0,S97. Arena Sport 3 FHD HR
+http://77.72.23.28/iptv/NBQAGAGHRC47B3/7265/index.m3u8 
+#EXTINF:0,S98. Arena Sport 3 HD HR
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/7331/index.m3u8 
+#EXTINF:0,S99. Arena Sport 4 FHD HR
+http://77.72.23.28/iptv/349W3XS8ENP64A/7266/index.m3u8 
+#EXTINF:0,S100. Arena Sport 4 HD HR
+http://77.72.23.28/iptv/9K3WPWP3GKUT8U/7332/index.m3u8 
+#EXTINF:0,S101. Arena Sport 5 FHD HR
+http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7267/index.m3u8 
+#EXTINF:0,S102. Arena Sport 5 HD HR
+http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7333/index.m3u8 
+#EXTINF:0,S103. Arena Sport 6 FHD HR
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/7268/index.m3u8 
+#EXTINF:0,S104. Arena Sport 6 HD HR
+http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7334/index.m3u8
+
+#EXTINF:0,S222. CANAL+ SPORT 2 PL
+http://77.72.23.28/iptv/9K3WPWP3GKUT8U/6099/index.m3u8
+
+#EXTINF:0,S225. Canal+ Sport FHD PL
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/6098/index.m3u8
+
+#EXTINF:0,S243. POLSAT SPORT EXTRA HD PL
+http://77.72.23.28/iptv/3Z4H4E9X3XN79G/7310/index.m3u8
+
+#EXTINF:105,S244. POLSAT SPORT FIGHT HD PL
+http://77.72.23.28/iptv/MNPBNDKVDKX8G9/7311/index.m3u8 
+#EXTINF:0,S245. POLSAT SPORT NEWS HD PL
+http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7303/index.m3u8 
+#EXTINF:0,S246. POLSAT SPORT PREMIUM 1 PL
+http://77.72.23.28/iptv/YKTL84D2R2E5QL/7304/index.m3u8 
+#EXTINF:0,S247. POLSAT SPORT PREMIUM 2 PL
+http://77.72.23.28/iptv/YKTL84D2R2E5QL/7305/index.m3u8 
+#EXTINF:0,S248. POLSAT SPORT PREMIUM 3 PPV PL
+http://77.72.23.28/iptv/U5RTT4EW296H6V/7306/index.m3u8 
+#EXTINF:0,S249. POLSAT SPORT PREMIUM 4 PPV PL
+http://77.72.23.28/iptv/3Z4H4E9X3XN79G/7307/index.m3u8 
+#EXTINF:0,S250. POLSAT SPORT PREMIUM 5 PPV PL
+http://77.72.23.28/iptv/YKTL84D2R2E5QL/7308/index.m3u8 
+#EXTINF:0,S251. POLSAT SPORT PREMIUM 6 PPV PL
+http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7309/index.m3u8
+
+#EXTINF:0,S301. Sportklub HD PL
+http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2521/index.m3u8
+
+#EXTINF:0,S284. VIASAT SPORT EXTRA HD SE
+http://77.72.23.28/iptv/NBQAGAGHRC47B3/12074/index.m3u8 
+
+#EXTINF:0,S285. VIASAT SPORT PREMIUM HD SE
+http://77.72.23.28/iptv/3Z4H4E9X3XN79G/12079/index.m3u8
 
 #EXTINF:-1, TR Bein Max 2
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/19062/index.m3u8
