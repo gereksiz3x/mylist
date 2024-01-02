@@ -6,6 +6,12 @@ https://af.ayas.ir/hls2/persiana.m3u8
 #EXTINF:-1,Varzesh TV
 https://af.ayas.ir/hls2/varzeshtv.m3u8
 
+#EXTINF:-1,Turkmenistan Sport
+http://217.174.225.146/legacyhls/ch004_720/index.m3u8
+
+#EXTINF:-1, IDMAN TV http://109.205.166.68/server124/idman_az/index.m3u8
+
+
 #EXTINF:-1,МАТЧ SPORT 1 HD 
 http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8 
 #EXTINF:-1,МАТЧ SPORT 2 HD 
@@ -14,6 +20,10 @@ http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
 #EXTINF:-1,МАТЧ ПРЕМЬЕР HD
 https://bl.uma.media/live/126866/HLS/6866944_4/2/1/playlist.m3u8
+#EXTINF:-1,МАТЧ CTPAHA
+https://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,МАТЧ TV
+http://dmi3y-tv.ru/hls/T2/CH_MATCHTV.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 1HD" tvg-logo="" group-title="SPOR",MAX SPORT 1HD
 http://93.155.227.38:555/m3u8/webmtelsport_web.m3u8
@@ -24,17 +34,8 @@ http://93.155.227.38:555/m3u8/webmtelsport3_web.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 4HD" tvg-logo="" group-title="SPOR",MAX SPORT 4HD
 http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
 
-#EXTINF:-1,ARENA SPORT 1
-https://kusnadipepenk.github.io/ntn/arns1.m3u8
-
-#EXTINF:-1,ARENA SPORT 2 
-https://kusnadipepenk.github.io/ntn/arns2.m3u8 
-
-#EXTINF:-1,ARENA SPORT 3 
-https://kusnadipepenk.github.io/ntn/arns3.m3u8 
-
-#EXTINF:-1,ARENA SPORT 4 
-https://kusnadipepenk.github.io/ntn/arns4.m3u8
+#EXTINF:-1,ESPN
+https://cr7v.short.gy/ESPNTVy/index.m3u8
 
 #EXTINF:-1,Arena SPORT 1
 http://93.155.227.38:555/m3u8/arenasport1.m3u8
@@ -47,14 +48,6 @@ http://93.155.227.38:555/m3u8/arenasport4.m3u8
 #EXTINF:-1,Arena SPORT 5
 http://93.155.227.38:555/m3u8/arenasport5.m3u8
 
-#EXTINF:-1,Kirgizistan Sport
-http://89.254.128.5:22280/qsport/index.m3u
-
-#EXTINF:-1,Turkmenistan Sport
-http://217.174.225.146/legacyhls/ch004_720/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="IDMAN TV" tvg-logo="" group-title="SPOR",IDMAN TV
-http://109.205.166.68/server124/idman_az/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
 https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
