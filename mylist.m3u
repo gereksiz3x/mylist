@@ -52,8 +52,16 @@ http://93.155.227.38:555/m3u8/arenasport5.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
 https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Viaplay Sport1" tvg-logo="" group-title="SPOR",Viaplay Sport 1
-https://d3j7ofexbkp7q4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bl5ti7t9yiazp-ssai-prd/master.m3u8
+
+#EXTINF:-1 ,Via Play Sports 1
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 ,Via Play Sports 2
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 ,Sky Sports Football.
+http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
+#EXTINF:-1 ,Via Play Sports 5
+https://hls.streambtw.com/live/stream_5.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-name="SHARJAH SPORT" tvg-logo="" group-title="SPOR",SHARJAH
 http://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
