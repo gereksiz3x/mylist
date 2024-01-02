@@ -5,11 +5,43 @@ https://hls.rtasport.live/hls/stream.m3u8
 https://af.ayas.ir/hls2/persiana.m3u8
 #EXTINF:-1,Varzesh TV
 https://af.ayas.ir/hls2/varzeshtv.m3u8
+#EXTINF:-1,IRIB3 ir
+https://af.ayas.ir/hls2/tv3.m3u8
+#EXTINF:-1,Ayas Sport1
+https://stream.ayas.ir/hls2/ayas1.m3u8
+#EXTINF:-1,Ayas Sport2
+https://stream.ayas.ir/hls2/ayas2.m3u8
+#EXTINF:-1,Ayas Sport3
+https://stream.ayas.ir/hls2/ayas3.m3u8
+#EXTINF:-1,Ayas Sport4
+https://stream.ayas.ir/hls2/ayas4.m3u8
+#EXTINF:-1,Ayas Sport5
+https://stream.ayas.ir/hls2/ayas5.m3u8
+#EXTINF:-1,Ayas SSC1
+https://af.ayas.ir/hls2/ssc1.m3u8
+
+#EXTINF:-1,Bien Max4 headlines
+https://headlinessportsfoot.com/chunklist/hlsch5.m3u8
+#EXTINF:-1,Sporttv1 headlines
+https://headlinessportsfoot.com/chunklist/hlsch9.m3u8
+#EXTINF:-1,Sport headlines
+https://headlinessportsfoot.com/chunklist/hlsch25.m3u8
+
+#EXTINF:-1,wenkisterin1
+https://wenkisterin.latsyoving.xyz/live/n-1/chunks.m3u8
+#EXTINF:-1,wenkisterin2
+https://wenkisterin.latsyoving.xyz/live/n-2/chunks.m3u8
+#EXTINF:-1,wenkisterin3
+https://wenkisterin.latsyoving.xyz/live/n-3/chunks.m3u8
+
+#EXTINF:-1,freesportstime1
+https://soccer.freesportstime.com/live/stream_1.m3u8
 
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 
-#EXTINF:-1, IDMAN TV http://109.205.166.68/server124/idman_az/index.m3u8
+#EXTINF:-1, IDMAN TV
+http://109.205.166.68/server124/idman_az/index.m3u8
 
 
 #EXTINF:-1,МАТЧ SPORT 1 HD 
@@ -37,6 +69,9 @@ http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
 #EXTINF:-1,ESPN
 https://cr7v.short.gy/ESPNTVy/index.m3u8
 
+#EXTINF:-1,Gold Tv
+https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
+
 #EXTINF:-1,Arena SPORT 1
 http://93.155.227.38:555/m3u8/arenasport1.m3u8
 #EXTINF:-1,Arena SPORT 2
@@ -50,17 +85,29 @@ http://93.155.227.38:555/m3u8/arenasport5.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
-https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
+https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8,
 
 
-#EXTINF:-1 ,Via Play Sports 1
+#EXTINF:-1 ,streambtv1
 https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 ,Via Play Sports 2
+#EXTINF:-1 ,streambtv2
 https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 ,streambtv3
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 ,streambtv4
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 ,streambtv5
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 ,streambtv6
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 ,streambtv7
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 ,streambtv8
+https://hls.streambtw.com/live/stream_8.m3u8
+
 #EXTINF:-1 ,Sky Sports Football.
 http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
-#EXTINF:-1 ,Via Play Sports 5
-https://hls.streambtw.com/live/stream_5.m3u8
+
 
 
 #EXTINF:-1 tvg-id="" tvg-name="SHARJAH SPORT" tvg-logo="" group-title="SPOR",SHARJAH
