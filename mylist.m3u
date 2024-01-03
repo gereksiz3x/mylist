@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINF:-1,RTA Sports
-https://hls.rtasport.live/hls/stream.m3u8
+
 #EXTINF:-1,Persiana Sports
 https://af.ayas.ir/hls2/persiana.m3u8
 #EXTINF:-1,Varzesh TV
@@ -20,11 +19,69 @@ https://stream.ayas.ir/hls2/ayas5.m3u8
 #EXTINF:-1,Ayas SSC1
 https://af.ayas.ir/hls2/ssc1.m3u8
 
-#EXTINF:-1,Bien Max4 headlines
+
+#EXTINF:-1 ,streambtv1
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 ,streambtv2
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 ,streambtv3
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 ,streambtv4
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 ,streambtv5
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 ,streambtv6
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 ,streambtv7
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 ,streambtv8
+https://hls.streambtw.com/live/stream_8.m3u8
+#EXTINF:-1 ,streambtv9
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 ,streambtv10
+https://hls.streambtw.com/live/stream_10.m3u8
+
+#EXTINF:-1,headlines1
+https://headlinessportsfoot.com/chunklist/hlsch1.m3u8
+#EXTINF:-1,headlines2
+https://headlinessportsfoot.com/chunklist/hlsch2.m3u8
+#EXTINF:-1,headlines3
+https://headlinessportsfoot.com/chunklist/hlsch3.m3u8
+#EXTINF:-1,headlines4
+https://headlinessportsfoot.com/chunklist/hlsch4.m3000u8
+#EXTINF:-1,headlines5
 https://headlinessportsfoot.com/chunklist/hlsch5.m3u8
-#EXTINF:-1,Sporttv1 headlines
+#EXTINF:-1,headlines6
+https://headlinessportsfoot.com/chunklist/hlsch6.m3u8
+#EXTINF:-1,headlines7
+https://headlinessportsfoot.com/chunklist/hlsch7.m3u8
+#EXTINF:-1,headlines8
+https://headlinessportsfoot.com/chunklist/hlsch8.m3u8
+#EXTINF:-1,headlines9
 https://headlinessportsfoot.com/chunklist/hlsch9.m3u8
-#EXTINF:-1,Sport headlines
+#EXTINF:-1,headlines10
+https://headlinessportsfoot.com/chunklist/hlsch10.m3u8
+#EXTINF:-1,headlines11
+https://headlinessportsfoot.com/chunklist/hlsch11.m3u8
+#EXTINF:-1,headlines12
+https://headlinessportsfoot.com/chunklist/hlsch12.m3u8
+#EXTINF:-1,headlines13
+https://headlinessportsfoot.com/chunklist/hlsch13.m3u8
+#EXTINF:-1,headlines14
+https://headlinessportsfoot.com/chunklist/hlsch14.m3u8
+#EXTINF:-1,headlines15
+https://headlinessportsfoot.com/chunklist/hlsch15.m3u8
+#EXTINF:-1,headlines16
+https://headlinessportsfoot.com/chunklist/hlsch16.m3u8
+#EXTINF:-1,headlines17
+https://headlinessportsfoot.com/chunklist/hlsch17.m3u8
+#EXTINF:-1,headlines18
+https://headlinessportsfoot.com/chunklist/hlsch18.m3u8
+#EXTINF:-1,headlines19
+https://headlinessportsfoot.com/chunklist/hlsch19.m3u8
+#EXTINF:-1,headlines20
+https://headlinessportsfoot.com/chunklist/hlsch20.m3u8
+#EXTINF:-1,headlines25
 https://headlinessportsfoot.com/chunklist/hlsch25.m3u8
 
 #EXTINF:-1,wenkisterin1
@@ -36,13 +93,32 @@ https://wenkisterin.latsyoving.xyz/live/n-3/chunks.m3u8
 
 #EXTINF:-1,freesportstime1
 https://soccer.freesportstime.com/live/stream_1.m3u8
-
+#EXTINF:-1,freesportstime2
+https://soccer.freesportstime.com/live/stream_2.m3u8
+#EXTINF:-1,freesportstime3
+https://soccer.freesportstime.com/live/stream_3.m3u8
+#EXTINF:-1,freesportstime4
+https://soccer.freesportstime.com/live/stream_4.m3u8
+#EXTINF:-1,freesportstime5
+https://soccer.freesportstime.com/live/stream_5.m3u8
+#EXTINF:-1,freesportstime6
+https://soccer.freesportstime.com/live/stream_6.m3u8
+#EXTINF:-1,freesportstime7
+https://soccer.freesportstime.com/live/stream_7.m3u8
+#EXTINF:-1,freesportstime8
+https://soccer.freesportstime.com/live/stream_8.m3u8
+#EXTINF:-1,freesportstime9
+https://soccer.freesportstime.com/live/stream_9.m3u8
+#EXTINF:-1,freesportstime10
+https://soccer.freesportstime.com/live/stream_10.m3u8
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 
 #EXTINF:-1, IDMAN TV
 http://109.205.166.68/server124/idman_az/index.m3u8
 
+#EXTINF:-1,RTA Sports
+https://hls.rtasport.live/hls/stream.m3u8
 
 #EXTINF:-1,МАТЧ SPORT 1 HD 
 http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8 
@@ -87,23 +163,6 @@ http://93.155.227.38:555/m3u8/arenasport5.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
 https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8,
 
-
-#EXTINF:-1 ,streambtv1
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 ,streambtv2
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 ,streambtv3
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 ,streambtv4
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 ,streambtv5
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 ,streambtv6
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 ,streambtv7
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 ,streambtv8
-https://hls.streambtw.com/live/stream_8.m3u8
 
 #EXTINF:-1 ,Sky Sports Football.
 http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
