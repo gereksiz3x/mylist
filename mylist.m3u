@@ -19,6 +19,10 @@ https://stream.ayas.ir/hls2/ayas5.m3u8
 #EXTINF:-1,Ayas SSC1
 https://af.ayas.ir/hls2/ssc1.m3u8
 
+#EXTINF:-1,Bein Extra
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimittrueofileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
+
+
 
 #EXTINF:-1 ,streambtv1
 https://hls.streambtw.com/live/stream_1.m3u8
@@ -111,6 +115,10 @@ https://soccer.freesportstime.com/live/stream_8.m3u8
 https://soccer.freesportstime.com/live/stream_9.m3u8
 #EXTINF:-1,freesportstime10
 https://soccer.freesportstime.com/live/stream_10.m3u8
+
+#EXTINF:-1,sportsleading6
+https://mo3ad@sportsleading.online/live/stream_6.m3u8
+
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 
@@ -144,9 +152,6 @@ http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
 
 #EXTINF:-1,ESPN
 https://cr7v.short.gy/ESPNTVy/index.m3u8
-
-#EXTINF:-1,Gold Tv
-https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 
 #EXTINF:-1,Arena SPORT 1
 http://93.155.227.38:555/m3u8/arenasport1.m3u8
@@ -473,4 +478,7 @@ http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/23
 
 #EXTINF:-1,Band sp 4kk
 http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/18
+
+#EXTINF:-1,Radyo 7
+https://ssl3.radyotvonline.com/radyo7/radyo7_test.stream/playlist.m3u8
 
