@@ -48,7 +48,7 @@ https://headlinessportsfoot.com/chunklist/hlsch2.m3u8
 #EXTINF:-1,headlines3
 https://headlinessportsfoot.com/chunklist/hlsch3.m3u8
 #EXTINF:-1,headlines4
-https://headlinessportsfoot.com/chunklist/hlsch4.m3000u8
+https://headlinessportsfoot.com/chunklist/hlsch4.m3u8
 #EXTINF:-1,headlines5
 https://headlinessportsfoot.com/chunklist/hlsch5.m3u8
 #EXTINF:-1,headlines6
@@ -321,6 +321,7 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2535/index.m3u8
 
 #EXTINF:-1, Eleven 6
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2536/index.m3u8
+
 
 #EXTINF:-1, Canal+ Sport
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2519/index.m3u8
