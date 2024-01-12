@@ -16,6 +16,8 @@ https://stream.ayas.ir/hls2/ayas3.m3u8
 https://stream.ayas.ir/hls2/ayas4.m3u8
 #EXTINF:-1,Ayas Sport5
 https://stream.ayas.ir/hls2/ayas5.m3u8
+#EXTINF:-1,Ayas Sport6
+https://stream.ayas.ir/hls2/ayas6.m3u8
 #EXTINF:-1,Ayas SSC1
 https://af.ayas.ir/hls2/ssc1.m3u8
 
@@ -144,8 +146,36 @@ https://soccer.freesportstime.com/live/stream_9.m3u8
 #EXTINF:-1,freesportstime10
 https://soccer.freesportstime.com/live/stream_10.m3u8
 
+#EXTINF:-1,mrgamingstreams1
+https://247c.mrgamingstreams.com/mrgamingbtsport1.m3u8
+#EXTINF:-1,mrgamingstreams2
+https://247c.mrgamingstreams.com/mrgamingbtsport2.m3u8
+#EXTINF:-1,mrgamingstreams3
+https://247c.mrgamingstreams.com/mrgamingbtsport3.m3u8
+#EXTINF:-1,mrgamingstreams4
+https://247c.mrgamingstreams.com/mrgamingbtsport4.m3u8
+#EXTINF:-1,mrgamingstreams5
+https://247c.mrgamingstreams.com/mrgamingbtsport5.m3u8
+
+
+#EXTINF:-1,sportsleading1
+https://mo3ad@sportsleading.online/live/stream_1.m3u8
+#EXTINF:-1,sportsleading2
+https://mo3ad@sportsleading.online/live/stream_2.m3u8
+#EXTINF:-1,sportsleading3
+https://mo3ad@sportsleading.online/live/stream_3.m3u8
+#EXTINF:-1,sportsleading4
+https://mo3ad@sportsleading.online/live/stream_4.m3u8
+#EXTINF:-1,sportsleading5
+https://mo3ad@sportsleading.online/live/stream_5.m3u8
 #EXTINF:-1,sportsleading6
 https://mo3ad@sportsleading.online/live/stream_6.m3u8
+#EXTINF:-1,sportsleading7
+https://mo3ad@sportsleading.online/live/stream_7.m3u8
+#EXTINF:-1,sportsleading8
+https://mo3ad@sportsleading.online/live/stream_8.m3u8
+
+
 
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
@@ -192,13 +222,25 @@ http://93.155.227.38:555/m3u8/arenasport4.m3u8
 #EXTINF:-1,Arena SPORT 5
 http://93.155.227.38:555/m3u8/arenasport5.m3u8
 
+#EXTINF:-1,Arena SPORT1
+http://37.18.239.36:8888/Arena_sport_1_HD/index.m3u8
+#EXTINF:-1,Arena SPORT2
+http://37.18.239.36:8888/Arena_sport_2_HD/index.m3u8
+#EXTINF:-1,Arena SPORT3
+http://37.18.239.36:8888/Arena_sport_3_HD/index.m3u8
+#EXTINF:-1,Arena SPORT4
+http://37.18.239.36:8888/Arena_sport_4_HD/index.m3u8
+#EXTINF:-1,Arena SPORT Premium1
+http://37.18.239.36:8888/Arena_sport_premium_1_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
 https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8,
 
-
-#EXTINF:-1 ,Sky Sports Football.
+#EXTINF:-1,Sky Sport Football
 http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
+#EXTINF:-1,Sky Sport Mix
+http://89.187.167.94:80/live.ts?channelId=141&deviceUser=jeff1&devicePass=jeff1&uid=21890
+
 
 
 
@@ -272,22 +314,22 @@ http://89.254.128.5:22280/nicktoons/video.m3u8
 http://143.244.60.30/NICKELODEON/index.m3u8
 
 #EXTINF:-1, CBC Sport
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2193/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2193/index.m3u8
 
 #EXTINF:-1, IDMAN
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2198/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2198/index.m3u8
 
 #EXTINF:-1, Sport 1 Israel
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2353/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2353/index.m3u8
 
 #EXTINF:-1, Sport 2 Israel
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2352/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2352/index.m3u8
 
 #EXTINF:-1, Sport 3 Israel
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2388/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2388/index.m3u8
 
 #EXTINF:-1, Sport 4 Israel
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2389/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2389/index.m3u8
 
 #EXTINF:-1, One2 Israel
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2373/index.m3u8
@@ -308,10 +350,10 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2500/index.m3u8
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2501/index.m3u8
 
 #EXTINF:-1, Sport 2 CZ
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2557/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2557/index.m3u8
 
 #EXTINF:-1, Ziggo Sport
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2560/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2560/index.m3u8
 
 #EXTINF:-1, Ziggo Voetball
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2561/index.m3u8
@@ -373,15 +415,15 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2547/index.m3u8
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2550/index.m3u8
 
 #EXTINF:-1, SPORT TV1
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2525/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2525/index.m3u8
 #EXTINF:-1, SPORT TV2
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2526/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2526/index.m3u8
 #EXTINF:-1, SPORT TV3
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2527/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2527/index.m3u8
 #EXTINF:-1, SPORT TV4
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2528/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2528/index.m3u8
 #EXTINF:-1, SPORT TV5
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2529/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2529/index.m3u8
 
 
 #EXTINF:0,S92. Arena Sport 1 FHD HR
