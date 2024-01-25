@@ -1,52 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1,Persiana Sports
-https://af.ayas.ir/hls2/persiana.m3u8
-#EXTINF:-1,Varzesh TV
-https://af.ayas.ir/hls2/varzeshtv.m3u8
-#EXTINF:-1,IRIB3 ir
-https://af.ayas.ir/hls2/tv3.m3u8
-#EXTINF:-1,Ayas Sport1
-https://stream.ayas.ir/hls2/ayas1.m3u8
-#EXTINF:-1,Ayas Sport2
-https://stream.ayas.ir/hls2/ayas2.m3u8
-#EXTINF:-1,Ayas Sport3
-https://stream.ayas.ir/hls2/ayas3.m3u8
-#EXTINF:-1,Ayas Sport4
-https://stream.ayas.ir/hls2/ayas4.m3u8
-#EXTINF:-1,Ayas Sport5
-https://stream.ayas.ir/hls2/ayas5.m3u8
-#EXTINF:-1,Ayas Sport6
-https://stream.ayas.ir/hls2/ayas6.m3u8
-#EXTINF:-1,Ayas SSC1
-https://af.ayas.ir/hls2/ssc1.m3u8
-
-#EXTINF:-1,Bein Extra
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimittrueofileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
-
-
-
-#EXTINF:-1 ,streambtv1
-https://hls.streambtw.com/live/stream_1.m3u8
-#EXTINF:-1 ,streambtv2
-https://hls.streambtw.com/live/stream_2.m3u8
-#EXTINF:-1 ,streambtv3
-https://hls.streambtw.com/live/stream_3.m3u8
-#EXTINF:-1 ,streambtv4
-https://hls.streambtw.com/live/stream_4.m3u8
-#EXTINF:-1 ,streambtv5
-https://hls.streambtw.com/live/stream_5.m3u8
-#EXTINF:-1 ,streambtv6
-https://hls.streambtw.com/live/stream_6.m3u8
-#EXTINF:-1 ,streambtv7
-https://hls.streambtw.com/live/stream_7.m3u8
-#EXTINF:-1 ,streambtv8
-https://hls.streambtw.com/live/stream_8.m3u8
-#EXTINF:-1 ,streambtv9
-https://hls.streambtw.com/live/stream_9.m3u8
-#EXTINF:-1 ,streambtv10
-https://hls.streambtw.com/live/stream_10.m3u8
-
 #EXTINF:-1,headlines1
 https://headlinessportsfoot.com/chunklist/hlsch1.m3u8
 #EXTINF:-1,headlines2
@@ -118,6 +71,28 @@ https://headlinessportsfoot.com/chunklist/hlsch34.m3u8
 #EXTINF:-1,headlines35
 https://headlinessportsfoot.com/chunklist/hlsch35.m3u8
 
+#EXTINF:-1 ,streambtv1
+https://hls.streambtw.com/live/stream_1.m3u8
+#EXTINF:-1 ,streambtv2
+https://hls.streambtw.com/live/stream_2.m3u8
+#EXTINF:-1 ,streambtv3
+https://hls.streambtw.com/live/stream_3.m3u8
+#EXTINF:-1 ,streambtv4
+https://hls.streambtw.com/live/stream_4.m3u8
+#EXTINF:-1 ,streambtv5
+https://hls.streambtw.com/live/stream_5.m3u8
+#EXTINF:-1 ,streambtv6
+https://hls.streambtw.com/live/stream_6.m3u8
+#EXTINF:-1 ,streambtv7
+https://hls.streambtw.com/live/stream_7.m3u8
+#EXTINF:-1 ,streambtv8
+https://hls.streambtw.com/live/stream_8.m3u8
+#EXTINF:-1 ,streambtv9
+https://hls.streambtw.com/live/stream_9.m3u8
+#EXTINF:-1 ,streambtv10
+https://hls.streambtw.com/live/stream_10.m3u8
+
+
 #EXTINF:-1,wenkisterin1
 https://wenkisterin.latsyoving.xyz/live/n-1/chunks.m3u8
 #EXTINF:-1,wenkisterin2
@@ -175,13 +150,35 @@ https://mo3ad@sportsleading.online/live/stream_7.m3u8
 #EXTINF:-1,sportsleading8
 https://mo3ad@sportsleading.online/live/stream_8.m3u8
 
-
+#EXTINF:-1,Persiana Sports
+https://af.ayas.ir/hls2/persiana.m3u8
+#EXTINF:-1,Varzesh TV
+https://af.ayas.ir/hls2/varzeshtv.m3u8
+#EXTINF:-1,IRIB3 ir
+https://af.ayas.ir/hls2/tv3.m3u8
+#EXTINF:-1,Ayas Sport1
+https://stream.ayas.ir/hls2/ayas1.m3u8
+#EXTINF:-1,Ayas Sport2
+https://stream.ayas.ir/hls2/ayas2.m3u8
+#EXTINF:-1,Ayas Sport3
+https://stream.ayas.ir/hls2/ayas3.m3u8
+#EXTINF:-1,Ayas Sport4
+https://stream.ayas.ir/hls2/ayas4.m3u8
+#EXTINF:-1,Ayas Sport5
+https://stream.ayas.ir/hls2/ayas5.m3u8
+#EXTINF:-1,Ayas Sport6
+https://stream.ayas.ir/hls2/ayas6.m3u8
+#EXTINF:-1,Ayas SSC1
+https://af.ayas.ir/hls2/ssc1.m3u8
 
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 
 #EXTINF:-1, IDMAN TV
 http://109.205.166.68/server124/idman_az/index.m3u8
+
+#EXTINF:-1,Bein Extra
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimittrueofileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
 
 #EXTINF:-1,RTA Sports
 https://hls.rtasport.live/hls/stream.m3u8
@@ -208,9 +205,6 @@ http://93.155.227.38:555/m3u8/webmtelsport3_web.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 4HD" tvg-logo="" group-title="SPOR",MAX SPORT 4HD
 http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
 
-#EXTINF:-1,ESPN
-https://cr7v.short.gy/ESPNTVy/index.m3u8
-
 #EXTINF:-1,Arena SPORT 1
 http://93.155.227.38:555/m3u8/arenasport1.m3u8
 #EXTINF:-1,Arena SPORT 2
@@ -233,15 +227,11 @@ http://37.18.239.36:8888/Arena_sport_4_HD/index.m3u8
 #EXTINF:-1,Arena SPORT Premium1
 http://37.18.239.36:8888/Arena_sport_premium_1_HD/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport" tvg-logo="" group-title="SPOR",Viasat Sport
-https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8,
-
 #EXTINF:-1,Sky Sport Football
 http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
+
 #EXTINF:-1,Sky Sport Mix
 http://89.187.167.94:80/live.ts?channelId=141&deviceUser=jeff1&devicePass=jeff1&uid=21890
-
-
 
 
 #EXTINF:-1 tvg-id="" tvg-name="SHARJAH SPORT" tvg-logo="" group-title="SPOR",SHARJAH
@@ -292,22 +282,6 @@ http://typicamn.russtv.net/iptv/2WAMYB26HSVLNN/6822/index.m3u8
 #EXTINF:-1,Bein Sports4yedek
 http://typicamn.russtv.net/iptv/2WAMYB26HSVLNN/6823/index.m3u8
 
-
-#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",BEIN SPORTS XTRA 
-http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/63930.m3u8
-
-#EXTINF:0 tvg-id="ext" group-title="CANALES VARIADOS (intermitencia)",Bein Sports XTRA \u00d1 
-http://xcm.budtv-ultra.com:25461/live/bud-185308/acbd5173b7/55660.m3u8
-
-#EXTINF:-1 tvg-id="Bein Sports 5" tvg-logo="" group-title="Sports",Bein Sports 5
-http://175.107.244.52:4457/play/a06y/index.m3u8
-
-#EXTINF:-1 tvg-id="Bein Sports" tvg-logo="" group-title="Sports",Bein Sports
-http://175.107.244.52:4457/play/a070/index.m3u8
-
-
-
-
 #EXTINF:-1,NICKTOONS
 http://89.254.128.5:22280/nicktoons/video.m3u8
 #EXTINF:-1,NICKELODEON
@@ -344,7 +318,7 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2362/index.m3u8
 http://77.72.23.28/iptv/XX4SGCHWELMC2R/2499/index.m3u8
 
 #EXTINF:-1, Bein Sport 2 FR
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2500/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2500/index.m3u8
 
 #EXTINF:-1, Bein Sport 3 FR
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2501/index.m3u8
@@ -356,63 +330,63 @@ http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2557/index.m3u8
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2560/index.m3u8
 
 #EXTINF:-1, Ziggo Voetball
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2561/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2561/index.m3u8
 
 #EXTINF:-1, Ziggo Golf
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2559/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2559/index.m3u8
 
 #EXTINF:-1,+ Sport
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2502/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2502/index.m3u8
 
 #EXTINF:0,S110. DIGI Sport 1 HD RO
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/2523/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2523/index.m3u8
 
 #EXTINF:-1, Digi Sport 2
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2522/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2522/index.m3u8
 
 #EXTINF:-1, Digi Sport 3
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2524/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2524/index.m3u8
 
 #EXTINF:-1, Digi Sport 4
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2538/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2538/index.m3u8
 
 #EXTINF:-1, TVP Sport
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2520/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2520/index.m3u8
 
 
 #EXTINF:-1, DAZN Eleven 1
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2531/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2531/index.m3u8
 
 #EXTINF:-1, DAZN Eleven 2
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2532/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2532/index.m3u8
 
 #EXTINF:-1, Eleven 3
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2533/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2533/index.m3u8
 
 #EXTINF:-1, Eleven 4
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2534/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2534/index.m3u8
 
 #EXTINF:-1, Eleven 5
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2535/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2535/index.m3u8
 
 #EXTINF:-1, Eleven 6
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2536/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2536/index.m3u8
 
 
 #EXTINF:-1, Canal+ Sport
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2519/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2519/index.m3u8
 
 #EXTINF:-1, RMC Sport 1
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2545/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2545/index.m3u8
 
 #EXTINF:-1, RMC Sport 2
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2546/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2546/index.m3u8
 
 #EXTINF:-1, RMC Sport 3
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2547/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2547/index.m3u8
 
 #EXTINF:-1, Arena Sport 1
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2550/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2550/index.m3u8
 
 #EXTINF:-1, SPORT TV1
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2525/index.m3u8
@@ -425,69 +399,14 @@ http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2528/index.m3u8
 #EXTINF:-1, SPORT TV5
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2529/index.m3u8
 
-
-#EXTINF:0,S92. Arena Sport 1 FHD HR
-http://77.72.23.28/iptv/MB6KGZH26APQGN/7263/index.m3u8 
-#EXTINF:0,S93. Arena Sport 1 HD HR
-http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7329/index.m3u8 
-#EXTINF:0,S94. Arena Sport 1 SK
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2550/index.m3u8 
-#EXTINF:0,S95. Arena Sport 2 FHD HR
-http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7264/index.m3u8
-
-#EXTINF:0,S96. Arena Sport 2 HD HR
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/7330/index.m3u8 
-#EXTINF:0,S97. Arena Sport 3 FHD HR
-http://77.72.23.28/iptv/NBQAGAGHRC47B3/7265/index.m3u8 
-#EXTINF:0,S98. Arena Sport 3 HD HR
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/7331/index.m3u8 
-#EXTINF:0,S99. Arena Sport 4 FHD HR
-http://77.72.23.28/iptv/349W3XS8ENP64A/7266/index.m3u8 
-#EXTINF:0,S100. Arena Sport 4 HD HR
-http://77.72.23.28/iptv/9K3WPWP3GKUT8U/7332/index.m3u8 
-#EXTINF:0,S101. Arena Sport 5 FHD HR
-http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7267/index.m3u8 
-#EXTINF:0,S102. Arena Sport 5 HD HR
-http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7333/index.m3u8 
-#EXTINF:0,S103. Arena Sport 6 FHD HR
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/7268/index.m3u8 
-#EXTINF:0,S104. Arena Sport 6 HD HR
-http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7334/index.m3u8
-
 #EXTINF:0,S222. CANAL+ SPORT 2 PL
-http://77.72.23.28/iptv/9K3WPWP3GKUT8U/6099/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/6099/index.m3u8
 
 #EXTINF:0,S225. Canal+ Sport FHD PL
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/6098/index.m3u8
-
-#EXTINF:0,S243. POLSAT SPORT EXTRA HD PL
-http://77.72.23.28/iptv/3Z4H4E9X3XN79G/7310/index.m3u8
-
-#EXTINF:105,S244. POLSAT SPORT FIGHT HD PL
-http://77.72.23.28/iptv/MNPBNDKVDKX8G9/7311/index.m3u8 
-#EXTINF:0,S245. POLSAT SPORT NEWS HD PL
-http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7303/index.m3u8 
-#EXTINF:0,S246. POLSAT SPORT PREMIUM 1 PL
-http://77.72.23.28/iptv/YKTL84D2R2E5QL/7304/index.m3u8 
-#EXTINF:0,S247. POLSAT SPORT PREMIUM 2 PL
-http://77.72.23.28/iptv/YKTL84D2R2E5QL/7305/index.m3u8 
-#EXTINF:0,S248. POLSAT SPORT PREMIUM 3 PPV PL
-http://77.72.23.28/iptv/U5RTT4EW296H6V/7306/index.m3u8 
-#EXTINF:0,S249. POLSAT SPORT PREMIUM 4 PPV PL
-http://77.72.23.28/iptv/3Z4H4E9X3XN79G/7307/index.m3u8 
-#EXTINF:0,S250. POLSAT SPORT PREMIUM 5 PPV PL
-http://77.72.23.28/iptv/YKTL84D2R2E5QL/7308/index.m3u8 
-#EXTINF:0,S251. POLSAT SPORT PREMIUM 6 PPV PL
-http://77.72.23.28/iptv/WTRMLWF6MHW5NG/7309/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/6098/index.m3u8
 
 #EXTINF:0,S301. Sportklub HD PL
-http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2521/index.m3u8
-
-#EXTINF:0,S284. VIASAT SPORT EXTRA HD SE
-http://77.72.23.28/iptv/NBQAGAGHRC47B3/12074/index.m3u8 
-
-#EXTINF:0,S285. VIASAT SPORT PREMIUM HD SE
-http://77.72.23.28/iptv/3Z4H4E9X3XN79G/12079/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2521/index.m3u8
 
 #EXTINF:-1, TR Bein Max 2
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/19062/index.m3u8
@@ -550,10 +469,33 @@ http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/23
 #EXTINF:-1,Band sp 4kk
 http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/18
 
+#EXTINF:0,S94. Arena Sport 1 SK
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2550/index.m3u8 
+
+#EXTINF:0,S96. Arena Sport 2 HD HR
+http://77.72.23.28/iptv/FSA7DBKQVFKXM8/7330/index.m3u8 
+
+#EXTINF:0,S98. Arena Sport 3 HD HR
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/7331/index.m3u8 
+#EXTINF:0,S99. Arena Sport 4 FHD HR
+http://77.72.23.28/iptv/349W3XS8ENP64A/7266/index.m3u8 
+#EXTINF:0,S100. Arena Sport 4 HD HR
+http://77.72.23.28/iptv/9K3WPWP3GKUT8U/7332/index.m3u8 
+#EXTINF:0,S101. Arena Sport 5 FHD HR
+http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7267/index.m3u8 
+#EXTINF:0,S102. Arena Sport 5 HD HR
+http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7333/index.m3u8 
+#EXTINF:0,S103. Arena Sport 6 FHD HR
+http://77.72.23.28/iptv/XX4SGCHWELMC2R/7268/index.m3u8 
+#EXTINF:0,S104. Arena Sport 6 HD HR
+http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7334/index.m3u8
+
 #EXTINF:-1,Radyo 7
 https://ssl3.radyotvonline.com/radyo7/radyo7_test.stream/playlist.m3u8
 #EXTINF:-1,Radyo 7
 http://radyo7hls.radyotvonline.net/radyo7/radyo7_test.stream/playlist.m3u8
 #EXTINF:-1,Radyo 7
 http://46.20.3.250
+
+
 
