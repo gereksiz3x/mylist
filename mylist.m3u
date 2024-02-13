@@ -131,6 +131,10 @@ https://247c.mrgamingstreams.com/mrgamingbtsport3.m3u8
 https://247c.mrgamingstreams.com/mrgamingbtsport4.m3u8
 #EXTINF:-1,mrgamingstreams5
 https://247c.mrgamingstreams.com/mrgamingbtsport5.m3u8
+#EXTINF:-1,mrgamingstreams6
+https://bp1.mrgamingstreams.com/laligabar.m3u8
+#EXTINF:-1,mrgamingstreams7
+https://dazc.mrgamingstreams.xyz/dazceventos1.m3u8
 
 
 #EXTINF:-1,sportsleading1
@@ -486,19 +490,78 @@ http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7267/index.m3u8
 #EXTINF:0,S102. Arena Sport 5 HD HR
 http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7333/index.m3u8 
 #EXTINF:0,S103. Arena Sport 6 FHD HR
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/7268/index.m3u8 
+http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7268/index.m3u8 
 #EXTINF:0,S104. Arena Sport 6 HD HR
-http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7334/index.m3u8
+http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7334/index.m3u8
 
 
 #EXTINF:-1,Premier Sports 1
 http://202.21.104.6:88/sps-prime/index.m3u8
+#EXTINF:-1,Premier Sports 2
+http://202.21.104.6:88/sps-play/index.m3u8
 #EXTINF:-1,Premier Sports 3
 http://202.21.104.6:88/sps-world/index.m3u8
 #EXTINF:-1,Premier Sports 4
 http://202.21.104.6:88/sps-action/index.m3u8
 #EXTINF:-1,Premier Sports 5
 http://202.21.104.6:88/sps-plus/index.m3u8
+
+#EXTINF:-1 ,POLSAT PREMIUM SPORTS 1
+http://cdn-main.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
+
+#EXTINF:-1 ,BEIN 2 AR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61169.m3u8
+
+#EXTINF:-1 ,BEIN 3 AR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61170.m3u8
+
+#EXTINF:-1 ,BEIN 4 AR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61171.m3u8
+
+#EXTINF:-1 ,BEIN 5 AR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61172.m3u8
+
+#EXTINF:-1 ,BEIN 6 AR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61173.m3u8
+
+#EXTINF:-1 ,BEIN 1 FR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/6620.m3u8
+
+#EXTINF:-1 ,BEIN 2 FR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/6622.m3u8
+
+#EXTINF:-1 ,BEIN 3 FR
+http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/6624.m3u8
+
+#EXTINF:-1,[SPORT] SetantaSports1
+https://qi7fj3gzx1w.a.trbcdn.net/livemaster/glmi9_live-jj1n4gjcyeq.smil/playlist.m3u8 
+
+#EXTINF:-1,[SPORT] SetantaSports2
+https://qi7fj3gzx1w.a.trbcdn.net/livemaster/x1ecc_live-n8t1vjjlihm.smil/playlist.m3u8 
+
+#EXTINF:-1,[SPORT] SS SELECT1
+http://myanmar.webhop.me/live/17524/03503/1070.m3u8 
+#EXTINF:-1,[SPORT] SS SELECT2
+http://myanmar.webhop.me/live/17524/03503/1071.m3u8 
+#EXTINF:-1,[SPORT] Sky Football
+http://myanmar.webhop.me/live/17524/03503/2093.m3u8 
+#EXTINF:-1,[SPORT] Sky MainEvent
+http://myanmar.webhop.me/live/17524/03503/2091.m3u8 
+#EXTINF:-1,[SPORT] Sky PremierLeague
+http://myanmar.webhop.me/live/17524/03503/2092.m3u8 
+#EXTINF:-1,[SPORT] ESPN1
+http://168.227.22.18:1935/live/mobile-032/playlist.m3u8 
+#EXTINF:-1,[SPORT] ESPN2
+http://168.227.22.18:1935/live/mobile-033/playlist.m3u8 
+#EXTINF:-1,[SPORT] ESPN3
+http://168.227.22.18:1935/live/mobile-121/playlist.m3u8 
+#EXTINF:-1,[SPORT] FOX Sport1
+http://168.227.22.18:1935/live/mobile-010/playlist.m3u8 
+#EXTINF:-1,[SPORT] FOX Sport2
+http://168.227.22.18:1935/live/mobile-031/playlist.m3u8 
+#EXTINF:-1,[SPORT] FOX Sport3
+http://168.227.22.18:1935/live/mobile-108/playlist.m3u8 
+
 
 #EXTINF:-1,Radyo 7
 https://ssl3.radyotvonline.com/radyo7/radyo7_test.stream/playlist.m3u8
