@@ -175,14 +175,19 @@ https://stream.ayas.ir/hls2/ayas6.m3u8
 #EXTINF:-1,Ayas SSC1
 https://af.ayas.ir/hls2/ssc1.m3u8
 
+#EXTINF:-1, Negaah TV
+https://iptv.negahtv.com/negahtv/playlist.m3u8
+
+#EXTINF:-1, aio Sport
+https://liveproxy.splus.ir/hls/aiosport/aiosport.m3u8
+
+
 #EXTINF:-1,Turkmenistan Sport
 http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 
 #EXTINF:-1, IDMAN TV
 http://109.205.166.68/server124/idman_az/index.m3u8
 
-#EXTINF:-1,Bein Extra
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimittrueofileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
 
 #EXTINF:-1,RTA Sports
 https://hls.rtasport.live/hls/stream.m3u8
@@ -508,6 +513,8 @@ http://202.21.104.6:88/sps-plus/index.m3u8
 
 #EXTINF:-1 ,POLSAT PREMIUM SPORTS 1
 http://cdn-main.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
+#EXTINF:-1 ,POLSAT SPORT
+https://cdn-main.lolokoko.tv/PolsatSport.stream/playlist.m3u8
 
 #EXTINF:-1 ,BEIN 2 AR
 http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61169.m3u8
