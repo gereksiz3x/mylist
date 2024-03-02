@@ -1,75 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1,headlines1
-https://headlinessportsfoot.com/chunklist/hlsch1.m3u8
-#EXTINF:-1,headlines2
-https://headlinessportsfoot.com/chunklist/hlsch2.m3u8
-#EXTINF:-1,headlines3
-https://headlinessportsfoot.com/chunklist/hlsch3.m3u8
-#EXTINF:-1,headlines4
-https://headlinessportsfoot.com/chunklist/hlsch4.m3u8
-#EXTINF:-1,headlines5
-https://headlinessportsfoot.com/chunklist/hlsch5.m3u8
-#EXTINF:-1,headlines6
-https://headlinessportsfoot.com/chunklist/hlsch6.m3u8
-#EXTINF:-1,headlines7
-https://headlinessportsfoot.com/chunklist/hlsch7.m3u8
-#EXTINF:-1,headlines8
-https://headlinessportsfoot.com/chunklist/hlsch8.m3u8
-#EXTINF:-1,headlines9
-https://headlinessportsfoot.com/chunklist/hlsch9.m3u8
-#EXTINF:-1,headlines10
-https://headlinessportsfoot.com/chunklist/hlsch10.m3u8
-#EXTINF:-1,headlines11
-https://headlinessportsfoot.com/chunklist/hlsch11.m3u8
-#EXTINF:-1,headlines12
-https://headlinessportsfoot.com/chunklist/hlsch12.m3u8
-#EXTINF:-1,headlines13
-https://headlinessportsfoot.com/chunklist/hlsch13.m3u8
-#EXTINF:-1,headlines14
-https://headlinessportsfoot.com/chunklist/hlsch14.m3u8
-#EXTINF:-1,headlines15
-https://headlinessportsfoot.com/chunklist/hlsch15.m3u8
-#EXTINF:-1,headlines16
-https://headlinessportsfoot.com/chunklist/hlsch16.m3u8
-#EXTINF:-1,headlines17
-https://headlinessportsfoot.com/chunklist/hlsch17.m3u8
-#EXTINF:-1,headlines18
-https://headlinessportsfoot.com/chunklist/hlsch18.m3u8
-#EXTINF:-1,headlines19
-https://headlinessportsfoot.com/chunklist/hlsch19.m3u8
-#EXTINF:-1,headlines20
-https://headlinessportsfoot.com/chunklist/hlsch20.m3u8
-#EXTINF:-1,headlines21
-https://headlinessportsfoot.com/chunklist/hlsch21.m3u8
-#EXTINF:-1,headlines22
-https://headlinessportsfoot.com/chunklist/hlsch22.m3u8
-#EXTINF:-1,headlines23
-https://headlinessportsfoot.com/chunklist/hlsch23.m3u8
-#EXTINF:-1,headlines24
-https://headlinessportsfoot.com/chunklist/hlsch24.m3u8
-#EXTINF:-1,headlines25
-https://headlinessportsfoot.com/chunklist/hlsch25.m3u8
-#EXTINF:-1,headlines26
-https://headlinessportsfoot.com/chunklist/hlsch26.m3u8
-#EXTINF:-1,headlines27
-https://headlinessportsfoot.com/chunklist/hlsch27.m3u8
-#EXTINF:-1,headlines28
-https://headlinessportsfoot.com/chunklist/hlsch28.m3u8
-#EXTINF:-1,headlines29
-https://headlinessportsfoot.com/chunklist/hlsch29.m3u8
-#EXTINF:-1,headlines30
-https://headlinessportsfoot.com/chunklist/hlsch30.m3u8
-#EXTINF:-1,headlines31
-https://headlinessportsfoot.com/chunklist/hlsch31.m3u8
-#EXTINF:-1,headlines32
-https://headlinessportsfoot.com/chunklist/hlsch32.m3u8
-#EXTINF:-1,headlines33
-https://headlinessportsfoot.com/chunklist/hlsch33.m3u8
-#EXTINF:-1,headlines34
-https://headlinessportsfoot.com/chunklist/hlsch34.m3u8
-#EXTINF:-1,headlines35
-https://headlinessportsfoot.com/chunklist/hlsch35.m3u8
+
 
 #EXTINF:-1 ,streambtv1
 https://hls.streambtw.com/live/stream_1.m3u8
@@ -93,8 +24,38 @@ https://hls.streambtw.com/live/stream_9.m3u8
 https://hls.streambtw.com/live/stream_10.m3u8
 
 
+#EXTINF:-1,RTA Sports
+https://hls.rtasport.live/hls/stream.m3u8
+#EXTINF:-1,Persiana Sports
+https://af.ayas.ir/hls2/persiana.m3u8
+#EXTINF:-1,Varzesh TV
+https://af.ayas.ir/hls2/varzeshtv.m3u8
+#EXTINF:-1,IRIB3 ir
+https://af.ayas.ir/hls2/tv3.m3u8
+#EXTINF:-1,Ayas Sport1
+https://stream.ayas.ir/hls2/ayas1.m3u8
+#EXTINF:-1,Ayas Sport2
+https://stream.ayas.ir/hls2/ayas2.m3u8
+#EXTINF:-1,Ayas Sport3
+https://stream.ayas.ir/hls2/ayas3.m3u8
+#EXTINF:-1,Ayas Sport4
+https://stream.ayas.ir/hls2/ayas4.m3u8
+#EXTINF:-1,Ayas Sport5
+https://stream.ayas.ir/hls2/ayas5.m3u8
+#EXTINF:-1,Ayas Sport6
+https://stream.ayas.ir/hls2/ayas6.m3u8
+#EXTINF:-1,Ayas SSC1
+https://af.ayas.ir/hls2/ssc1.m3u8
+
+#EXTINF:-1, Negaah TV
+https://iptv.negahtv.com/negahtv/playlist.m3u8
+
+#EXTINF:-1, aio Sport
+https://liveproxy.splus.ir/hls/aiosport/aiosport.m3u8
 #EXTINF:-1,wenkisterin1
 https://wenkisterin.latsyoving.xyz/live/n-1/chunks.m3u8
+
+
 #EXTINF:-1,wenkisterin2
 https://wenkisterin.latsyoving.xyz/live/n-2/chunks.m3u8
 #EXTINF:-1,wenkisterin3
@@ -154,32 +115,7 @@ https://mo3ad@sportsleading.online/live/stream_7.m3u8
 #EXTINF:-1,sportsleading8
 https://mo3ad@sportsleading.online/live/stream_8.m3u8
 
-#EXTINF:-1,Persiana Sports
-https://af.ayas.ir/hls2/persiana.m3u8
-#EXTINF:-1,Varzesh TV
-https://af.ayas.ir/hls2/varzeshtv.m3u8
-#EXTINF:-1,IRIB3 ir
-https://af.ayas.ir/hls2/tv3.m3u8
-#EXTINF:-1,Ayas Sport1
-https://stream.ayas.ir/hls2/ayas1.m3u8
-#EXTINF:-1,Ayas Sport2
-https://stream.ayas.ir/hls2/ayas2.m3u8
-#EXTINF:-1,Ayas Sport3
-https://stream.ayas.ir/hls2/ayas3.m3u8
-#EXTINF:-1,Ayas Sport4
-https://stream.ayas.ir/hls2/ayas4.m3u8
-#EXTINF:-1,Ayas Sport5
-https://stream.ayas.ir/hls2/ayas5.m3u8
-#EXTINF:-1,Ayas Sport6
-https://stream.ayas.ir/hls2/ayas6.m3u8
-#EXTINF:-1,Ayas SSC1
-https://af.ayas.ir/hls2/ssc1.m3u8
 
-#EXTINF:-1, Negaah TV
-https://iptv.negahtv.com/negahtv/playlist.m3u8
-
-#EXTINF:-1, aio Sport
-https://liveproxy.splus.ir/hls/aiosport/aiosport.m3u8
 
 
 #EXTINF:-1,Turkmenistan Sport
@@ -189,67 +125,12 @@ http://217.174.225.146/legacyhls/ch004_720/index.m3u8
 http://109.205.166.68/server124/idman_az/index.m3u8
 
 
-#EXTINF:-1,RTA Sports
-https://hls.rtasport.live/hls/stream.m3u8
-
-#EXTINF:-1,МАТЧ SPORT 1 HD 
-http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1,МАТЧ SPORT 2 HD 
-http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1,МАТЧ SPORT 3 HD 
-http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8 
-#EXTINF:-1,МАТЧ ПРЕМЬЕР HD
-https://bl.uma.media/live/126866/HLS/6866944_4/2/1/playlist.m3u8
-#EXTINF:-1,МАТЧ CTPAHA
-https://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,МАТЧ TV
 http://dmi3y-tv.ru/hls/T2/CH_MATCHTV.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 1HD" tvg-logo="" group-title="SPOR",MAX SPORT 1HD
-http://93.155.227.38:555/m3u8/webmtelsport_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 2HD" tvg-logo="" group-title="SPOR",MAX SPORT 2HD
-http://93.155.227.38:555/m3u8/webmtelsport2_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 3HD" tvg-logo="" group-title="SPOR",MAX SPORT 3HD
-http://93.155.227.38:555/m3u8/webmtelsport3_web.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MAX SPORT 4HD" tvg-logo="" group-title="SPOR",MAX SPORT 4HD
-http://93.155.227.38:555/m3u8/webmtelsport4_web.m3u8
-
-#EXTINF:-1,Arena SPORT 1
-http://93.155.227.38:555/m3u8/arenasport1.m3u8
-#EXTINF:-1,Arena SPORT 2
-http://93.155.227.38:555/m3u8/arenasport2.m3u8
-#EXTINF:-1,Arena SPORT 3
-http://93.155.227.38:555/m3u8/arenasport3.m3u8
-#EXTINF:-1,Arena SPORT 4
-http://93.155.227.38:555/m3u8/arenasport4.m3u8
-#EXTINF:-1,Arena SPORT 5
-http://93.155.227.38:555/m3u8/arenasport5.m3u8
-
-#EXTINF:-1,Arena SPORT1
-http://37.18.239.36:8888/Arena_sport_1_HD/index.m3u8
-#EXTINF:-1,Arena SPORT2
-http://37.18.239.36:8888/Arena_sport_2_HD/index.m3u8
-#EXTINF:-1,Arena SPORT3
-http://37.18.239.36:8888/Arena_sport_3_HD/index.m3u8
-#EXTINF:-1,Arena SPORT4
-http://37.18.239.36:8888/Arena_sport_4_HD/index.m3u8
-#EXTINF:-1,Arena SPORT Premium1
-http://37.18.239.36:8888/Arena_sport_premium_1_HD/index.m3u8
-
-#EXTINF:-1,Sky Sport Football
-http://89.187.167.94:80/live.ts?channelId=144&deviceUser=jeff1&devicePass=jeff1&uid=21890
-
-#EXTINF:-1,Sky Sport Mix
-http://89.187.167.94:80/live.ts?channelId=141&deviceUser=jeff1&devicePass=jeff1&uid=21890
 
 
 #EXTINF:-1 tvg-id="" tvg-name="SHARJAH SPORT" tvg-logo="" group-title="SPOR",SHARJAH
 http://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
-
-#EXTINF:-1,AD Sport 1 HD
-http://149.100.11.252:8000/play/a00p/index.m3u8
-#EXTINF:-1,AD Sport 2 HD
-http://149.100.11.252:8000/play/a00q/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Dubai Sports 1" tvg-logo="" group-title="SPOR",Dubai Sports 1
 https://dmitnthfr.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/playlist.m3u8
@@ -324,7 +205,7 @@ http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2391/index.m3u8
 http://77.72.23.28/iptv/SYBA4CKW5FBV5F/2362/index.m3u8
 
 #EXTINF:113,beIN SPORTS 1 FR FHD
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/2499/index.m3u8
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2499/index.m3u8
 
 #EXTINF:-1, Bein Sport 2 FR
 http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2500/index.m3u8
@@ -459,9 +340,6 @@ http://iptv.prosto.tv:7000/ch117/video.m3u8
 #EXTINF:-1 ,TIGO SPORTS
 https://linear-556.frequency.stream/dist/vix/556/hls/master/playlist.m3u8
 
-#EXTINF:-1,Sportv 4k
-http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/80
-
 #EXTINF:-1,Sportv 1 HD
 http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/14
 
@@ -479,23 +357,23 @@ http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/23
 http://sport.xphost19.xyz:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/18
 
 #EXTINF:0,S94. Arena Sport 1 SK
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/2550/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/2550/index.m3u8 
 
 #EXTINF:0,S96. Arena Sport 2 HD HR
-http://77.72.23.28/iptv/FSA7DBKQVFKXM8/7330/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7330/index.m3u8 
 
 #EXTINF:0,S98. Arena Sport 3 HD HR
-http://77.72.23.28/iptv/XX4SGCHWELMC2R/7331/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7331/index.m3u8 
 #EXTINF:0,S99. Arena Sport 4 FHD HR
-http://77.72.23.28/iptv/349W3XS8ENP64A/7266/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7266/index.m3u8 
 #EXTINF:0,S100. Arena Sport 4 HD HR
-http://77.72.23.28/iptv/9K3WPWP3GKUT8U/7332/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7332/index.m3u8 
 #EXTINF:0,S101. Arena Sport 5 FHD HR
-http://77.72.23.28/iptv/UWSCNHYFPPFSA5/7267/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7267/index.m3u8 
 #EXTINF:0,S102. Arena Sport 5 HD HR
-http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7333/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7333/index.m3u8 
 #EXTINF:0,S103. Arena Sport 6 FHD HR
-http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7268/index.m3u8 
+http://op9fqvuz.akciatv.ru/iptv/LC8RBR34PMDLY8/7268/index.m3u8 
 #EXTINF:0,S104. Arena Sport 6 HD HR
 http://77.72.23.28/iptv/E3LU9AEU7KCKE7/7334/index.m3u8
 
@@ -510,11 +388,6 @@ http://202.21.104.6:88/sps-world/index.m3u8
 http://202.21.104.6:88/sps-action/index.m3u8
 #EXTINF:-1,Premier Sports 5
 http://202.21.104.6:88/sps-plus/index.m3u8
-
-#EXTINF:-1 ,POLSAT PREMIUM SPORTS 1
-http://cdn-main.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
-#EXTINF:-1 ,POLSAT SPORT
-https://cdn-main.lolokoko.tv/PolsatSport.stream/playlist.m3u8
 
 #EXTINF:-1 ,BEIN 2 AR
 http://carmeltv.live:80/EXCHANGEukmed/QHZ5pjF7UdKx/61169.m3u8
@@ -569,6 +442,24 @@ http://168.227.22.18:1935/live/mobile-031/playlist.m3u8
 #EXTINF:-1,[SPORT] FOX Sport3
 http://168.227.22.18:1935/live/mobile-108/playlist.m3u8 
 
+#EXTINF:-1,headlines1
+https://headlinessportsfoot.com/chunklist/hlsch1.m3u8
+#EXTINF:-1,headlines2
+https://headlinessportsfoot.com/chunklist/hlsch2.m3u8
+#EXTINF:-1,headlines3
+https://headlinessportsfoot.com/chunklist/hlsch3.m3u8
+#EXTINF:-1,headlines4
+https://headlinessportsfoot.com/chunklist/hlsch4.m3u8
+#EXTINF:-1,headlines5
+https://headlinessportsfoot.com/chunklist/hlsch5.m3u8
+#EXTINF:-1,headlines6
+https://headlinessportsfoot.com/chunklist/hlsch6.m3u8
+#EXTINF:-1,headlines7
+https://headlinessportsfoot.com/chunklist/hlsch7.m3u8
+#EXTINF:-1,headlines8
+https://headlinessportsfoot.com/chunklist/hlsch8.m3u8
+#EXTINF:-1,headlines9
+https://headlinessportsfoot.com/chunklist/hlsch9.m3u8
 
 #EXTINF:-1,Radyo 7
 https://ssl3.radyotvonline.com/radyo7/radyo7_test.stream/playlist.m3u8
