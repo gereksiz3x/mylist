@@ -1,37 +1,35 @@
 #EXTM3U
 
-#EXTINF:-1,Art Sport 1 FHD
- http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7847.ts
+#EXTINF:-1,Art Sport 1 FHD http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7847.m3u8
 
-#EXTINF:-1,Art Sport 2 FHD
- http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7848.ts 
+#EXTINF:-1,Art Sport 2 FHD http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7848.m3u8 
 
 #EXTINF:-1,Art Sport 3 FHD
- http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7849.ts 
+ http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7849.m3u8 
 
 #EXTINF:-1,Art Sport 4 FHD
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75468.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75468.m3u8
 
 #EXTINF:-1,Art Sport 5 FHD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75469.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75469.m3u8
 
 #EXTINF:-1,Art Sport 6 FHD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75470.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/75470.m3u8
 
 #EXTINF:-1,Super Sport 1 HD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7813.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7813.m3u8
 
 #EXTINF:-1,Super Sport 2 HD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7814.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7814.m3u8
 
 #EXTINF:-1,Super Sport 3 HD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7815.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7815.m3u8 
 
 #EXTINF:-1,Super Sport 4 HD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7816.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7816.m3u8
 
 #EXTINF:-1,Super Sport 5 HD 
-http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7817.ts 
+http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7817.m3u8 
 
 #EXTINF:-1,Tring Sport News 
 http://supertv.xyz:8080/BekaPD/e7U4HvwrXG/7826.ts 
