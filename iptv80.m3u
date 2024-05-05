@@ -44,17 +44,26 @@ https://www.oha.to/play/363023099/index.m3u8
 https://www.oha.to/play/4269351111/index.m3u8
 #EXTINF:-1 , BEIN SPORTS 2 H
 https://www.oha.to/play/2807188734/index.m3u8
+
 #EXTINF:-1 , S SPORT 2 D
 https://www.oha.to/play/2341230542/index.m3u8
 #EXTINF:-1 , S SPORT D
 https://www.oha.to/play/1740949330/index.m3u8
-#EXTINF:-1 , BEIN SPORTS MAX 4 D
-https://www.oha.to/play/3244993575/index.m3u8
+
+#EXTINF:-1 , BEIN SPORTS MAX 4 FHD EVENT ONLY
+https://www.oha.to/play/1484848693/index.m3u8
+#EXTINF:-1 , BEIN SPORTS MAX 5 FHD EVENT ONLY
+https://www.oha.to/play/1336449781/index.m3u8
+#EXTINF:-1 , BEIN SPORTS MAX 6 FHD EVENT ONLY
+https://www.oha.to/play/1993357237/index.m3u8
+#EXTINF:-1 , BEIN SPORTS MAX 7 HD EVENT ONLY
+https://www.oha.to/play/1049865926/index.m3u8
+#EXTINF:-1 , BEIN SPORTS MAX 8 FHD EVENT ONLY
+https://www.oha.to/play/3177335605/index.m3u8
+#EXTINF:-1 , BEIN SPORTS MAX 9 FHD EVENT ONLY
+https://www.oha.to/play/2856988661/index.m3u8
 #EXTINF:-1 , BEIN SPORTS MAX 10 FHD EVENT ONLY
 https://www.oha.to/play/3806760810/index.m3u8
-
-
-
 
 
 #EXTINF:-1,Persiana Sports
