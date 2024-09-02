@@ -38,6 +38,9 @@ https://hls.rtasport.live/hls/stream.m3u8
 #EXTINF:-1, Negaah TV
 https://iptv.negahtv.com/negahtv/playlist.m3u8
 
+#EXTINF:-1, ESPN
+https://7.tutl24.xyz/live/STb88a289438c3944.m3u8
+
 #EXTINF:-1 ,Bong1
 https://xcdn.bong.ink/hls/bong1.m3u8
 #EXTINF:-1 ,Bong2
