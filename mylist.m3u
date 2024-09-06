@@ -33,8 +33,8 @@ https://tv.ayas.ir/hls/aiosport2/aiosport2.m3u8
 https://solhtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1, Poker TV
 https://hls.pokertvfa.live/hls/stream.m3u8
-#EXTINF:-1,RTA Sports
-https://hls.rtasport.live/hls/stream.m3u8
+#EXTINF:-1,Bein Sports 2
+http://167.71.11.213/BeinSport2/index.m3u8
 #EXTINF:-1, Negaah TV
 https://iptv.negahtv.com/negahtv/playlist.m3u8
 
