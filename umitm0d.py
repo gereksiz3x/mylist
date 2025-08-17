@@ -1,100 +1,71 @@
-import requests
+from httpx import Client
 import re
-import sys
+import os
+from urllib.parse import urlparse
 
-# Terminal renkleri
-RED = "\033[91m"
-GREEN = "\033[92m"
-YELLOW = "\033[93m"
-RESET = "\033[0m"
+class XYZsportsManager:
+    def __init__(self, cikti_dosyasi):
+        self.cikti_dosyasi = cikti_dosyasi
+        self.httpx = Client(timeout=10, verify=False)
+        self.domain_bilgileri = []
+        self.channel_ids = [
+            "bein-sports-1", "bein-sports-2", "bein-sports-3",
+            "bein-sports-4", "bein-sports-5", "bein-sports-max-1",
+            "bein-sports-max-2", "smart-spor", "smart-spor-2",
+            "trt-spor", "trt-spor-2", "aspor", "s-sport",
+            "s-sport-2", "s-sport-plus-1", "s-sport-plus-2"
+        ]
 
-# Kanallar listesi (başına ÜmitM0d eklenecek)
-KANALLAR = [
-    {"dosya": "yayinzirve.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD (VIP)"},
-    {"dosya": "yayin1.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD"},
-    {"dosya": "yayinb2.m3u8", "tvg_id": "BeinSports2.tr", "kanal_adi": "Bein Sports 2 HD"},
-    {"dosya": "yayinb3.m3u8", "tvg_id": "BeinSports3.tr", "kanal_adi": "Bein Sports 3 HD"},
-    {"dosya": "yayinb4.m3u8", "tvg_id": "BeinSports4.tr", "kanal_adi": "Bein Sports 4 HD"},
-    {"dosya": "yayinb5.m3u8", "tvg_id": "BeinSports5.tr", "kanal_adi": "Bein Sports 5 HD"},
-    {"dosya": "yayinbm1.m3u8", "tvg_id": "BeinMax1.tr", "kanal_adi": "Bein Max 1 HD"},
-    {"dosya": "yayinbm2.m3u8", "tvg_id": "BeinMax2.tr", "kanal_adi": "Bein Max 2 HD"},
-    {"dosya": "yayinss.m3u8", "tvg_id": "SSport1.tr", "kanal_adi": "S Sport 1 HD"},
-    {"dosya": "yayinss2.m3u8", "tvg_id": "SSport2.tr", "kanal_adi": "S Sport 2 HD"},
-    {"dosya": "yayinssp2.m3u8", "tvg_id": "SSportPlus.tr", "kanal_adi": "S Sport Plus HD"},
-    {"dosya": "yayint1.m3u8", "tvg_id": "TivibuSpor1.tr", "kanal_adi": "Tivibu Spor 1 HD"},
-    {"dosya": "yayint2.m3u8", "tvg_id": "TivibuSpor2.tr", "kanal_adi": "Tivibu Spor 2 HD"},
-    {"dosya": "yayint3.m3u8", "tvg_id": "TivibuSpor3.tr", "kanal_adi": "Tivibu Spor 3 HD"},
-    {"dosya": "yayinsmarts.m3u8", "tvg_id": "SmartSpor1.tr", "kanal_adi": "Smart Spor 1 HD"},
-    {"dosya": "yayinsms2.m3u8", "tvg_id": "SmartSpor2.tr", "kanal_adi": "Smart Spor 2 HD"},
-    {"dosya": "yayintrtspor.m3u8", "tvg_id": "TRTSpor.tr", "kanal_adi": "TRT Spor HD"},
-    {"dosya": "yayintrtspor2.m3u8", "tvg_id": "TRTSporYildiz.tr", "kanal_adi": "TRT Spor Yıldız HD"},
-    {"dosya": "yayinas.m3u8", "tvg_id": "ASpor.tr", "kanal_adi": "A Spor HD"},
-    {"dosya": "yayinatv.m3u8", "tvg_id": "ATV.tr", "kanal_adi": "ATV HD"},
-    {"dosya": "yayintv8.m3u8", "tvg_id": "TV8.tr", "kanal_adi": "TV8 HD"},
-    {"dosya": "yayintv85.m3u8", "tvg_id": "TV85.tr", "kanal_adi": "TV8.5 HD"},
-    {"dosya": "yayinnbatv.m3u8", "tvg_id": "NBATV.tr", "kanal_adi": "NBA TV HD"},
-    {"dosya": "yayinex1.m3u8", "tvg_id": "ExxenSpor1.tr", "kanal_adi": "Exxen Spor 1 HD"},
-    {"dosya": "yayinex2.m3u8", "tvg_id": "ExxenSpor2.tr", "kanal_adi": "Exxen Spor 2 HD"},
-    {"dosya": "yayinex3.m3u8", "tvg_id": "ExxenSpor3.tr", "kanal_adi": "Exxen Spor 3 HD"},
-    {"dosya": "yayinex4.m3u8", "tvg_id": "ExxenSpor4.tr", "kanal_adi": "Exxen Spor 4 HD"},
-    {"dosya": "yayinex5.m3u8", "tvg_id": "ExxenSpor5.tr", "kanal_adi": "Exxen Spor 5 HD"},
-    {"dosya": "yayinex6.m3u8", "tvg_id": "ExxenSpor6.tr", "kanal_adi": "Exxen Spor 6 HD"},
-    {"dosya": "yayinex7.m3u8", "tvg_id": "ExxenSpor7.tr", "kanal_adi": "Exxen Spor 7 HD"},
-    {"dosya": "yayinex8.m3u8", "tvg_id": "ExxenSpor8.tr", "kanal_adi": "Exxen Spor 8 HD"},
-]
+    def find_working_domain(self, start=248, end=350):
+        headers = {"User-Agent": "Mozilla/5.0"}
+        for i in range(start, end + 1):
+            url = f"https://www.xyzsports{i}.xyz/"
+            try:
+                r = self.httpx.get(url, headers=headers)
+                if r.status_code == 200 and "uxsyplayer" in r.text:
+                    return r.text, url
+            except:
+                continue
+        return None, None
 
-def siteyi_bul():
-    print(f"\n{GREEN}[*] Site aranıyor...{RESET}")
-    for i in range(13, 20):
-        url = f"https://roadsportslive.byethost{i}.com/index.php"
-        try:
-            r = requests.get(url, timeout=5)
-            if r.status_code == 200:
-                if "channel.html?id=" in r.text:
-                    print(f"{GREEN}[OK] Yayın bulundu: {url}{RESET}")
-                    return url
-                else:
-                    print(f"{YELLOW}[-] {url} yayında ama yayın linki yok.{RESET}")
-        except requests.RequestException:
-            print(f"{RED}[-] {url} erişilemedi.{RESET}")
-    return None
+    def find_dynamic_player_domain(self, html):
+        m = re.search(r'https?://([a-z0-9\-]+\.[0-9a-z]+\.click)', html)
+        return f"https://{m.group(1)}" if m else None
 
-def find_baseurl(url):
-    try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-    except requests.RequestException:
-        return None
-    match = re.search(r'baseurl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
-    if match:
-        return match.group(1)
-    return None
+    def extract_base_stream_url(self, html):
+        m = re.search(r'this\.baseStreamUrl\s*=\s*[\'"]([^\'"]+)', html)
+        return m.group(1) if m else None
 
-def generate_m3u(base_url, referer, user_agent):
-    lines = ["#EXTM3U"]
-    for idx, k in enumerate(KANALLAR, start=1):
-        name = f"ÜmitM0d {k['kanal_adi']}"
-        lines.append(f'#EXTINF:-1 tvg-id="{k["tvg_id"]}" tvg-name="{name}",{name}')
-        lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
-        lines.append(f'#EXTVLCOPT:http-referrer={referer}')
-        lines.append(base_url + k["dosya"])
-        print(f"  ✔ {idx:02d}. {name}")
-    return "\n".join(lines)
+    def build_m3u8_content(self, base_stream_url, referer_url):
+        m3u = ["#EXTM3U"]
+        for cid in self.channel_ids:
+            channel_name = cid.replace("-", " ").title()
+            m3u.append(f'#EXTINF:-1 group-title="Umitmod",{channel_name}')
+            m3u.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0')
+            m3u.append(f'#EXTVLCOPT:http-referrer={referer_url}')
+            m3u.append(f'{base_stream_url}{cid}/playlist.m3u8')
+        return "\n".join(m3u)
+
+    def calistir(self):
+        html, referer_url = self.find_working_domain()
+        if not html:
+            raise RuntimeError("Çalışan domain bulunamadı!")
+        player_domain = self.find_dynamic_player_domain(html)
+        if not player_domain:
+            raise RuntimeError("Player domain bulunamadı!")
+
+        r = self.httpx.get(f"{player_domain}/index.php?id={self.channel_ids[0]}", headers={
+            "User-Agent": "Mozilla/5.0",
+            "Referer": referer_url
+        })
+        base_url = self.extract_base_stream_url(r.text)
+        if not base_url:
+            raise RuntimeError("Base stream URL bulunamadı!")
+
+        m3u_icerik = self.build_m3u8_content(base_url, referer_url)
+
+        with open(self.cikti_dosyasi, "w", encoding="utf-8") as f:
+            f.write(m3u_icerik)
 
 if __name__ == "__main__":
-    site = siteyi_bul()
-    if not site:
-        print(f"{RED}[HATA] Yayın yapan site bulunamadı.{RESET}")
-        sys.exit(1)
-
-    channel_url = site.rstrip("/") + "/channel.html?id=yayinzirve"
-    base_url = find_baseurl(channel_url)
-    if not base_url:
-        print(f"{RED}[HATA] Base URL bulunamadı.{RESET}")
-        sys.exit(1)
-
-    playlist = generate_m3u(base_url, site, "Mozilla/5.0")
-    with open("umitm0d.m3u", "w", encoding="utf-8") as f:
-        f.write(playlist)
-
-    print(f"{GREEN}[OK] Playlist oluşturuldu: umitm0d.m3u{RESET}")
+    XYZsportsManager("Umitmod.m3u").calistir()
