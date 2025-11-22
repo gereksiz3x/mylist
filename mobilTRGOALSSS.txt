@@ -54,8 +54,8 @@ def is_site_up(url):
         return False
 
 def get_site_url():
-    print(f"{YELLOW}[*]{RESET} Site adresi aranıyor (trgoals1364.xyz → 1453)...")
-    for i in range(1364, 1454):
+    print(f"{YELLOW}[*]{RESET} Site adresi aranıyor (trgoals1459.xyz → 1750)...")
+    for i in range(1459, 1750):
         domain = f"https://trgoals{i}.xyz/"
         print(f"  Deneniyor: {domain}", end="")
         if is_site_up(domain):
