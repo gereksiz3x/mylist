@@ -46,29 +46,45 @@ KANALLAR = [
 
 def siteyi_bul():
     print(f"\n{GREEN}[*] Site aranıyor...{RESET}")
-    # Son bilinen çalışan siteyi dene (hızlı erişim için)
-    son_site = "https://trgoals1531.xyz/"
-    try:
-        r = requests.get(son_site, timeout=5)
-        if r.status_code == 200:
-            print(f"{GREEN}[OK] Son bilinen site çalışıyor: {son_site}{RESET}")
-            return son_site
-    except:
-        pass
     
-    # Yoksa tara
-    for i in range(1459, 1750):
+    # Önce güncel siteyi dene (1540)
+    guncel_site = "https://trgoals1540.xyz/"
+    try:
+        r = requests.get(guncel_site, timeout=5)
+        if r.status_code == 200:
+            print(f"{GREEN}[OK] Güncel site çalışıyor: {guncel_site}{RESET}")
+            return guncel_site
+    except:
+        print(f"{YELLOW}[!] Güncel siteye erişilemedi, tüm siteler taranıyor...{RESET}")
+    
+    # 1540'dan başlayarak yukarı doğru tara (önce güncel site ve sonrası)
+    for i in range(1540, 1600):
         url = f"https://trgoals{i}.xyz/"
         try:
             r = requests.get(url, timeout=5)
             if r.status_code == 200:
-                if "channel.html?id=" in r.text or "yayin" in r.text:
+                if "channel.html?id=" in r.text or "yayin" in r.text or "player" in r.text:
                     print(f"{GREEN}[OK] Yayın bulundu: {url}{RESET}")
                     return url
                 else:
                     print(f"{YELLOW}[-] {url} yayında ama yayın linki yok.{RESET}")
         except requests.RequestException:
             print(f"{RED}[-] {url} erişilemedi.{RESET}")
+    
+    # Bulamazsa eski siteleri tara (aşağı doğru)
+    for i in range(1539, 1459, -1):
+        url = f"https://trgoals{i}.xyz/"
+        try:
+            r = requests.get(url, timeout=5)
+            if r.status_code == 200:
+                if "channel.html?id=" in r.text or "yayin" in r.text or "player" in r.text:
+                    print(f"{GREEN}[OK] Yayın bulundu: {url}{RESET}")
+                    return url
+                else:
+                    print(f"{YELLOW}[-] {url} yayında ama yayın linki yok.{RESET}")
+        except requests.RequestException:
+            pass  # Sessiz geç
+    
     return None
 
 def find_baseurl_advanced(url):
@@ -90,14 +106,18 @@ def find_baseurl_advanced(url):
             r'src=["\']([^"\']+load\.php[^"\']*)["\']',
             r'file:?\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
             r'"(https?://[^"]+cdn[^"]+)"',
+            r'"(https?://[^"]+\.m3u8[^"]*)"',  # Direkt m3u8 linki
         ]
         
         for pattern in patterns:
             match = re.search(pattern, html, re.IGNORECASE)
             if match:
                 base = match.group(1)
+                # Eğer direkt m3u8 linkiyse, base URL'yi çıkar
+                if '.m3u8' in base:
+                    base = '/'.join(base.split('/')[:-1]) + '/'
                 # Eğer tam URL değilse, site URL'si ile birleştir
-                if not base.startswith('http'):
+                elif not base.startswith('http'):
                     if base.startswith('//'):
                         base = 'https:' + base
                     elif base.startswith('/'):
@@ -116,7 +136,10 @@ def find_baseurl_advanced(url):
                 if isinstance(data, dict):
                     for key, value in data.items():
                         if isinstance(value, str) and ('.m3u8' in value or 'cdn' in value):
-                            base = '/'.join(value.split('/')[:-1]) + '/'
+                            if '.m3u8' in value:
+                                base = '/'.join(value.split('/')[:-1]) + '/'
+                            else:
+                                base = value
                             print(f"{GREEN}[OK] JSON'dan base URL bulundu: {base}{RESET}")
                             return base
             except:
@@ -129,19 +152,34 @@ def find_baseurl_advanced(url):
 
 def generate_m3u(base_url, referer, user_agent):
     lines = ["#EXTM3U"]
+    calisan_kanal_sayisi = 0
+    
     for idx, k in enumerate(KANALLAR, start=1):
         name = f"ÜmitM0d {k['kanal_adi']}"
         # Base URL'nin sonunda / var mı kontrol et
-        if not base_url.endswith('/'):
-            base_url += '/'
-        channel_url = base_url + k["dosya"]
+        base = base_url
+        if not base.endswith('/'):
+            base += '/'
+        channel_url = base + k["dosya"]
+        
+        # Kanalları test et (opsiyonel)
+        try:
+            test = requests.get(channel_url, timeout=2, headers={'User-Agent': user_agent})
+            if test.status_code == 200:
+                durum = f"{GREEN}✓{RESET}"
+                calisan_kanal_sayisi += 1
+            else:
+                durum = f"{YELLOW}?{RESET}"
+        except:
+            durum = f"{RED}✗{RESET}"
         
         lines.append(f'#EXTINF:-1 tvg-id="{k["tvg_id"]}" tvg-name="{name}",{name}')
         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
         lines.append(channel_url)
-        print(f"  ✔ {idx:02d}. {name} -> {channel_url}")
-    return "\n".join(lines)
+        print(f"  {durum} {idx:02d}. {name}")
+    
+    return "\n".join(lines), calisan_kanal_sayisi
 
 if __name__ == "__main__":
     site = siteyi_bul()
@@ -149,6 +187,8 @@ if __name__ == "__main__":
         print(f"{RED}[HATA] Yayın yapan site bulunamadı.{RESET}")
         sys.exit(1)
 
+    print(f"{YELLOW}[*] Site bulundu: {site}{RESET}")
+    
     channel_url = site.rstrip("/") + "/channel.html?id=yayinzirve"
     print(f"{YELLOW}[*] Channel URL kontrol ediliyor: {channel_url}{RESET}")
     
@@ -161,15 +201,16 @@ if __name__ == "__main__":
     
     if not base_url:
         print(f"{RED}[HATA] Base URL bulunamadı.{RESET}")
-        print(f"{YELLOW}[!] Lütfen aşağıdaki siteyi kontrol edin:{RESET}")
+        print(f"{YELLOW}[!] Lütfen aşağıdaki siteyi manuel kontrol edin:{RESET}")
         print(f"  Site: {site}")
         print(f"  Channel URL: {channel_url}")
         sys.exit(1)
 
-    playlist = generate_m3u(base_url, site, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+    playlist, calisan_sayi = generate_m3u(base_url, site, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
     
     with open("umitm0d.m3u", "w", encoding="utf-8") as f:
         f.write(playlist)
 
-    print(f"{GREEN}[OK] Playlist oluşturuldu: umitm0d.m3u{RESET}")
-    print(f"{YELLOW}[!] Toplam {len(KANALLAR)} kanal eklendi.{RESET}")
+    print(f"\n{GREEN}[OK] Playlist oluşturuldu: umitm0d.m3u{RESET}")
+    print(f"{GREEN}[OK] Toplam {len(KANALLAR)} kanal eklendi, {calisan_sayi} kanal erişilebilir{RESET}")
+    print(f"{YELLOW}[!] Kullanılan site: {site}{RESET}")
